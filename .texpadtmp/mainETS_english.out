@@ -1,0 +1,23 @@
+\BOOKMARK [0][]{chapter*.9}{INTRODUCTION}{}% 1
+\BOOKMARK [0][]{chapter.11}{Chapter 1 Long chapter tite, with linebreak. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque justo justo, porta sagittis feugiat eget, ornare rhoncus ligula. Nunc non odio sed lacus rutrum rhoncus. }{}% 2
+\BOOKMARK [1][]{section.12}{Layout tests}{chapter.11}% 3
+\BOOKMARK [2][-]{subsection.13}{Listing tests}{section.12}% 4
+\BOOKMARK [3][-]{subsubsection.14}{Enumerations: enum environment}{subsection.13}% 5
+\BOOKMARK [3][-]{subsubsection.17}{Lists: itemize environment}{subsection.13}% 6
+\BOOKMARK [2][-]{subsection.18}{Equations tests}{section.12}% 7
+\BOOKMARK [1][]{section.21}{Second section}{chapter.11}% 8
+\BOOKMARK [0][]{chapter.39}{Chapter 2 Second Chapter }{}% 9
+\BOOKMARK [1][]{section.40}{Table layout tests}{chapter.39}% 10
+\BOOKMARK [1][]{section.42}{References test}{chapter.39}% 11
+\BOOKMARK [2][-]{subsection.43}{References to the bibliography}{section.42}% 12
+\BOOKMARK [2][-]{subsection.44}{References to the list of references "refs"}{section.42}% 13
+\BOOKMARK [2][-]{subsection.45}{References to a label of the document}{section.42}% 14
+\BOOKMARK [2][-]{subsection.46}{URL references}{section.42}% 15
+\BOOKMARK [3][-]{subsubsection.47}{Test of "href"}{subsection.46}% 16
+\BOOKMARK [3][-]{subsubsection.48}{Test de url}{subsection.46}% 17
+\BOOKMARK [0][]{chapter.49}{Chapter 3 Example of a thesis by article, with integrated article }{}% 18
+\BOOKMARK [1][]{section.50}{Section 1}{chapter.49}% 19
+\BOOKMARK [0][]{chapter*.51}{CONCLUSION AND RECOMMENDATIONS}{}% 20
+\BOOKMARK [0][]{chapter.52}{Appendix I Appendix example }{}% 21
+\BOOKMARK [0][]{tableap.caption.58}{BIBLIOGRAPHY}{}% 22
+\BOOKMARK [0][]{chapter*.59}{LIST OF REFERENCES}{}% 23
