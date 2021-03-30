@@ -1,227 +1,107 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{11}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Doe(1999{\natexlab{a}})]{class}
-Doe, J.
-\newblock (1999{\natexlab{a}}).
-\newblock ACRONYM: Class name.
-\newblock Institution.
+\bibitem[{Dastangoo}\emph{ et~al.}(2016){Dastangoo}, {Fossa},
+  {Gwon}~\&~{Kung}]{CCRN_Dastangoo_Fossa}
+{Dastangoo}, S., {Fossa}, C.~E., {Gwon}, Y.~L.~\&~{Kung}, H.
+\newblock (2016).
+\newblock Competing Cognitive Resilient Networks.
+\newblock \emph{IEEE Transactions on Cognitive Communications and Networking},
+  2(1), 95-109.
+\newblock doi:~\detokenize{10.1109/TCCN.2016.2570798}.
 
-\bibitem[Doe(1999{\natexlab{b}})]{classURL}
-Doe, J.
-\newblock (1999{\natexlab{b}}).
-\newblock ACRONYM: Class name [Class notes].
-\newblock \biburlrep~\biburlpart~\url{http://www.google.ca}.
+\bibitem[{Gwon}\emph{ et~al.}(2013){Gwon}, {Dastangoo},
+  {Fossa}~\&~{Kung}]{FossaEtGwonComMobNetGame}
+{Gwon}, Y., {Dastangoo}, S., {Fossa}, C.~\&~{Kung}, H.~T.
+\newblock (2013,~Oct).
+\newblock Competing Mobile Network Game: Embracing antijamming and jamming
+  strategies with reinforcement learning.
+\newblock \emph{2013 IEEE Conference on Communications and Network Security
+  (CNS)}, pp.~28-36.
+\newblock doi:~\detokenize{10.1109/CNS.2013.6682689}.
 
-\bibitem[Doe(1999{\natexlab{c}})]{mastersthesis}
-Doe, J.
-\newblock (1999{\natexlab{c}}).
-\newblock \emph{The title of the thesis}.
-\newblock (\bibmaster,~School,~Address).
+\bibitem[H.\emph{ et~al.}(2016)H., A.~\&~D.]{ACM:HasseltetSilver}
+H., H., A., G.~\&~D., S.
+\newblock (2016).
+\newblock Deep Reinforcement Learning with Double Q-Learning.
+\newblock \emph{Proceedings of the Thirtieth AAAI Conference on Artificial
+  Intelligence}, (AAAI'16).
 
-\bibitem[Doe(1999{\natexlab{d}})]{mastersthesisDB}
-Doe, J.
-\newblock (1999{\natexlab{d}}).
-\newblock \emph{The title of the thesis}.
-\newblock (\bibmaster,~School,~Address).
-\newblock \biburlrep~\biburlpart~Name of the database. (ID number).
+\bibitem[{Han}\emph{ et~al.}(2017){Han}, {Xiao}~\&~{Poor}]{PoorEtHan}
+{Han}, G., {Xiao}, L.~\&~{Poor}, H.~V.
+\newblock (2017,~March).
+\newblock Two-dimensional anti-jamming communication based on deep
+  reinforcement learning.
+\newblock \emph{2017 IEEE International Conference on Acoustics, Speech and
+  Signal Processing (ICASSP)}, pp.~2087-2091.
+\newblock doi:~\detokenize{10.1109/ICASSP.2017.7952524}.
 
-\bibitem[Doe(1999{\natexlab{e}})]{mastersthesisURL}
-Doe, J.
-\newblock (1999{\natexlab{e}}).
-\newblock \emph{The title of the thesis}.
-\newblock (\bibmaster,~School,~Address).
-\newblock \biburlrep~\biburlpart~\url{http://www.google.ca}.
+\bibitem[Huynh\emph{ et~al.}(2020)Huynh, Hoang,
+  Nguyen~\&~Dutkiewicz]{vanhuynh2020deepfake}
+Huynh, N.~V., Hoang, D.~T., Nguyen, D.~N.~\&~Dutkiewicz, E.
+\newblock (2020).
+\newblock DeepFake: Deep Dueling-based Deception Strategy to Defeat Reactive
+  Jammers.
 
-\bibitem[Doe(1999{\natexlab{f}})]{online}
-Doe, J.
-\newblock (1999{\natexlab{f}},~October,~2).
-\newblock Web page title [Format].
-\newblock \biburlrep~\biburlpart~\url{http://www.google.ca}.
+\bibitem[Kasturi\emph{ et~al.}(2020)Kasturi,
+  Jain~\&~Singh]{Kasturi2020MachineLR}
+Kasturi, G., Jain, A.~\&~Singh, J.
+\newblock (2020).
+\newblock Machine Learning-Based RF Jamming Classification Techniques in
+  Wireless Ad Hoc Networks.
 
-\bibitem[Doe(1999{\natexlab{g}})]{onlineDataset}
-Doe, J.
-\newblock (1999{\natexlab{g}}).
-\newblock Dataset title [Online dataset].
-\newblock \biburlrep~\biburlpart~\url{http://www.google.ca}.
+\bibitem[Kwon\emph{ et~al.}(2020)Kwon, Choo, Kim, Yoon,
+  Min~\&~Gwon]{kwon2020pomo}
+Kwon, Y.-D., Choo, J., Kim, B., Yoon, I., Min, S.~\&~Gwon, Y.
+\newblock (2020).
+\newblock POMO: Policy Optimization with Multiple Optima for Reinforcement
+  Learning.
 
-\bibitem[Doe(1999{\natexlab{h}})]{onlineNick}
-Doe, J.
-\newblock [Nickname].
-\newblock (1999{\natexlab{h}},~October,~2).
-\newblock Web page title [Format].
-\newblock \biburlrep~\biburlpart~\url{http://www.google.ca}.
+\bibitem[{Li}\emph{ et~al.}(2019){Li}, {Wang}, {Li}, {Zhang},
+  {Dang}~\&~{Li}]{ICC:LietWangAntiJamUltraDenseNetwork}
+{Li}, W., {Wang}, J., {Li}, L., {Zhang}, G., {Dang}, Z.~\&~{Li}, S.
+\newblock (2019).
+\newblock Intelligent Anti-Jamming Communication with Continuous Action
+  Decision for Ultra-Dense Network.
+\newblock \emph{ICC 2019 - 2019 IEEE International Conference on Communications
+  (ICC)}, pp.~1-7.
+\newblock doi:~\detokenize{10.1109/ICC.2019.8761578}.
 
-\bibitem[Doe(1999{\natexlab{i}})]{onlineVideo}
-Doe, J.
-\newblock [Nickname].
-\newblock (1999{\natexlab{i}},~October,~2).
-\newblock Video title [Youtube Video].
-\newblock \biburlrep~\biburlpart~\url{http://www.google.ca}.
+\bibitem[{Liu}\emph{ et~al.}(2019){Liu}, {Xu}, {Chen}, {Wang}, {Wang}, {Li},
+  {Li}~\&~{Xu}]{liu_xu_chen_wang_wang_li_li_xu_2019}
+{Liu}, S., {Xu}, Y., {Chen}, X., {Wang}, X., {Wang}, M., {Li}, W., {Li},
+  Y.~\&~{Xu}, Y.
+\newblock (2019).
+\newblock Pattern-Aware Intelligent Anti-Jamming Communication: A Sequential
+  Deep Reinforcement Learning Approach.
+\newblock \emph{IEEE Access}, 7, 169204-169216.
+\newblock doi:~\detokenize{10.1109/ACCESS.2019.2954531}.
 
-\bibitem[Doe(1999{\natexlab{j}})]{patent}
-Doe, J.
-\newblock (1999{\natexlab{j}}).
-\newblock \emph{Patent type~n$^{\circ}$42}.
-\newblock  Location: organization.
+\bibitem[Mnih\emph{ et~al.}(2015)Mnih, Kavukcuoglu, Silver, Rusu, Veness,
+  Bellemare, Graves, Riedmiller, Fidjeland, Ostrovski, Petersen, Beattie,
+  Sadik, Antonoglou, King, Kumaran, Wierstra,
+  Legg~\&~Hassabis]{mnih2015humanlevel}
+Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A.~A., Veness, J., Bellemare,
+  M.~G., Graves, A., Riedmiller, M., Fidjeland, A.~K., Ostrovski, G., Petersen,
+  S., Beattie, C., Sadik, A., Antonoglou, I., King, H., Kumaran, D., Wierstra,
+  D., Legg, S.~\&~Hassabis, D.
+\newblock (2015).
+\newblock Human-level control through deep reinforcement learning.
+\newblock \emph{Nature}, 518(7540), 529--533.
+\newblock \biburlrep~\biburlpart~\url{http://dx.doi.org/10.1038/nature14236}.
 
-\bibitem[Doe(1999{\natexlab{k}})]{phdthesis}
-Doe, J.
-\newblock (1999{\natexlab{k}}).
-\newblock \emph{The title of the thesis}.
-\newblock (\bibphd,~School,~Address).
-
-\bibitem[Doe(1999{\natexlab{l}})]{rawData}
-Doe, J.
-\newblock (1999{\natexlab{l}}) [Short description of the contents].
-\newblock Unpublished raw data.
-
-\bibitem[Doe(1999{\natexlab{m}})]{software}
-Doe, J.
-\newblock (1999{\natexlab{m}}).
-\newblock Software name (Version 1.0) [Software].
-\newblock  Location: Publisher.
-
-\bibitem[Doe(1999{\natexlab{n}})]{techreport}
-Doe, J.
-\newblock (1999{\natexlab{n}}).
-\newblock \emph{The title of the report} (\bibrap~ n$^{\circ}$42).
-\newblock  Location: Publisher.
-
-\bibitem[Doe(1999{\natexlab{o}})]{unpublished}
-Doe, J.
-\newblock (1999{\natexlab{o}}).
-\newblock \emph{Document title}.
-\newblock Unpublished document, Institution, Location.
-
-\bibitem[Doe(1999{\natexlab{p}})]{unpublishedSubmitted}
-Doe, J.
-\newblock (1999{\natexlab{p}}).
-\newblock \emph{Document title}.
-\newblock Manuscript submitted for publication.
-
-\bibitem[Doe(1999{\natexlab{q}})]{unpublishedURL}
-Doe, J.
-\newblock (1999{\natexlab{q}}).
-\newblock \emph{Document title}.
-\newblock \biburlrep~\biburlpart~\url{http://www.google.ca}.
-
-\bibitem[Doe\emph{ et~al.}(1999{\natexlab{a}})Doe, Doe~\&~Doe]{ArticleExample}
-Doe, J., Doe, J.~\&~Doe, J.
-\newblock (1999{\natexlab{a}}).
-\newblock Title of the article.
-\newblock \emph{Name of the journal}, 4(2), 220-242.
-
-\bibitem[Doe\emph{ et~al.}(1999{\natexlab{b}})Doe,
-  Doe~\&~Doe]{ArticleExampleInPress}
-Doe, J., Doe, J.~\&~Doe, J.
-\newblock (1999{\natexlab{b}}).
-\newblock Title of the article.
-\newblock \emph{Name of the journal}.
-\newblock In press.
-
-\bibitem[Doe\emph{ et~al.}(1999{\natexlab{c}})Doe, Doe~\&~Doe]{BookExample}
-Doe, J., Doe, J.~\&~Doe, J.
-\newblock (1999{\natexlab{c}}).
-\newblock \emph{Title of the book} (\bibed.~3).
-\newblock  Location: Publisher.
-
-\bibitem[Doe\emph{ et~al.}(1999{\natexlab{d}})Doe, Doe~\&~Doe]{BookExampleDOI}
-Doe, J., Doe, J.~\&~Doe, J.
-\newblock (1999{\natexlab{d}}).
-\newblock \emph{Title of the book} [Version].
-\newblock doi:~\detokenize{123-456-789}.
-
-\bibitem[Doe\emph{ et~al.}(1999{\natexlab{e}})Doe,
-  Doe~\&~Doe]{BookExampleEditor}
-Doe, J., Doe, J.~\&~Doe, J. (\bibEd s.).
-\newblock (1999{\natexlab{e}}).
-\newblock \emph{Title of the book} (\bibed.~3).
-\newblock  Location: Publisher.
-
-\bibitem[Doe\emph{ et~al.}(1999{\natexlab{f}})Doe, Doe~\&~Doe]{BookExampleURL}
-Doe, J., Doe, J.~\&~Doe, J.
-\newblock (1999{\natexlab{f}}).
-\newblock \emph{Title of the book} [Version].
-\newblock \biburlrep~\biburlpart~\url{http://www.google.com}.
-
-\bibitem[Doe\emph{ et~al.}(1999{\natexlab{g}})Doe,
-  Doe~\&~Doe]{EncyclopediaExample}
-Doe, J., Doe, J.~\&~Doe, J.
-\newblock (1999{\natexlab{g}}).
-\newblock Title of the entry.
-\newblock \bibin~\emph{Title of the encyclopedia}
-  (\bibed.~3,~vol.~4,~pp.~220-242).
-\newblock  Location: Publisher.
-
-\bibitem[Doe\emph{ et~al.}(1999{\natexlab{h}})Doe, Doe~\&~Doe]{InBookExample}
-Doe, J., Doe, J.~\&~Doe, J.
-\newblock (1999{\natexlab{h}}).
-\newblock \bibin~Doe, J., Doe, J.~\&~Doe, J. (\bibEd s.),~\emph{Title of the
-  book} (\bibed.~3,~vol.~4,~ch.~7,~pp.~220-242).
-\newblock  Location: Publisher.
-
-\bibitem[Doe\emph{ et~al.}(1999{\natexlab{i}})Doe,
-  Doe~\&~Doe]{InCollectionExample}
-Doe, J., Doe, J.~\&~Doe, J.
-\newblock (1999{\natexlab{i}}).
-\newblock Title of the chapter.
-\newblock \bibin~Doe, J., Doe, J.~\&~Doe, J. (\bibEd s.),~\emph{Title of the
-  book} (\bibed.~3,~vol.~4,~pp.~220-242).
-\newblock  Location: Publisher.
-
-\bibitem[Doe\emph{ et~al.}(1999{\natexlab{j}})Doe,
-  Doe~\&~Doe]{InCollectionExample2}
-Doe, J., Doe, J.~\&~Doe, J.
-\newblock (1999{\natexlab{j}}).
-\newblock Title of the article.
-\newblock \bibin~Doe, J., Doe, J.~\&~Doe, J. (\bibEd s.),~\emph{Title of the
-  conference proceedings} (\bibed.~3,~vol.~4,~pp.~220-242).
-\newblock  Location: Publisher.
-
-\bibitem[Doe\emph{ et~al.}(1999{\natexlab{k}})Doe,
-  Doe~\&~Doe]{InProceedingsComExample}
-Doe, J., Doe, J.~\&~Doe, J.
-\newblock (1999{\natexlab{k}},~October).
-\newblock \emph{Title of the article}.
-\newblock Communication~\bibpres~ Title of the conference proceedings,
-  Location~(pp.~ 220-242).
-
-\bibitem[Doe\emph{ et~al.}(1999{\natexlab{l}})Doe,
-  Doe~\&~Doe]{InProceedingsExample}
-Doe, J., Doe, J.~\&~Doe, J.
-\newblock (1999{\natexlab{l}}).
-\newblock Title of the article.
-\newblock \emph{Title of the conference proceedings}, 4(2), 220-242.
-
-\bibitem[Doe\emph{ et~al.}(1999{\natexlab{m}})Doe, Doe~\&~Doe]{MagasineExample}
-Doe, J., Doe, J.~\&~Doe, J.
-\newblock (1999{\natexlab{m}},~October).
-\newblock Title of the article.
-\newblock \emph{Title of the magasine}, 4(2), 220-242.
-
-\bibitem[Doe\emph{ et~al.}(1999{\natexlab{n}})Doe, Doe~\&~Doe]{QuoExample}
-Doe, J., Doe, J.~\&~Doe, J.
-\newblock (1999{\natexlab{n}},~October).
-\newblock Title of the article.
-\newblock \emph{Title of the magasine}, pp.~220.
-
-\bibitem[Org(1999)]{norm}
-Organization name.
-\newblock (1999).
-\newblock \emph{Norm title}.
-\newblock Institution and norm number.
-\newblock  Location: Organization name.
-
-\bibitem[Wikipedia(1999)]{onlineWiki}
-Page title.
-\newblock (1999).
-\newblock \bibin~ \emph{Wikipedia}.
-\newblock
-  \biburlrep~\biburlpartdate~2013-05-16~\biburlpart~\url{https://www.wikipedia.org}.
+\bibitem[{Sabharwal}\emph{ et~al.}(2014){Sabharwal}, {Schniter}, {Guo},
+  {Bliss}, {Rangarajan}~\&~{Wichman}]{WichmanWirelessChallengesandOp}
+{Sabharwal}, A., {Schniter}, P., {Guo}, D., {Bliss}, D.~W., {Rangarajan},
+  S.~\&~{Wichman}, R.
+\newblock (2014).
+\newblock In-Band Full-Duplex Wireless: Challenges and Opportunities.
+\newblock \emph{IEEE Journal on Selected Areas in Communications}, 32(9),
+  1637-1652.
+\newblock doi:~\detokenize{10.1109/JSAC.2014.2330193}.
 
 \end{thebibliography}

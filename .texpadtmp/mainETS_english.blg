@@ -1,50 +1,52 @@
 This is BibTeX, Version 0.99d (TeX Live 2020)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: /Users/aytacozkan/Desktop/ETSMTL-Reading-list/thesis-adaptive -collaborative -autonomous- wireless-networks/.texpadtmp/mainETS_english.aux
+The top-level auxiliary file: /Users/aytacozkan/Desktop/ETSMTL-Reading-list/thesis-adaptive-collaborative-autonomous-wireless-networks/.texpadtmp/mainETS_english.aux
 The style file: ../bibETS.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ../biblio_en.bib
+Warning--string name "feb" is undefined
+--line 40 of file ../biblio_en.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--empty pages in ArticleExampleInPress
-You've used 33 entries,
+Warning--empty pages in ACM:HasseltetSilver
+You've used 11 entries,
             3211 wiz_defined-function locations,
-            716 strings with 6186 characters,
-and the built_in function-call counts, 11585 in all, are:
-= -- 1052
-> -- 600
-< -- 40
-+ -- 250
-- -- 188
-* -- 1098
-:= -- 1849
-add.period$ -- 140
-call.type$ -- 33
-change.case$ -- 127
-chr.to.int$ -- 4
-cite$ -- 67
-duplicate$ -- 481
-empty$ -- 954
-format.name$ -- 220
-if$ -- 2360
-int.to.chr$ -- 30
+            693 strings with 7764 characters,
+and the built_in function-call counts, 6207 in all, are:
+= -- 519
+> -- 605
+< -- 0
++ -- 209
+- -- 198
+* -- 626
+:= -- 1053
+add.period$ -- 48
+call.type$ -- 11
+change.case$ -- 88
+chr.to.int$ -- 11
+cite$ -- 23
+duplicate$ -- 175
+empty$ -- 319
+format.name$ -- 209
+if$ -- 1212
+int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 214
-num.names$ -- 134
-pop$ -- 205
+newline$ -- 78
+num.names$ -- 44
+pop$ -- 142
 preamble$ -- 1
-purify$ -- 127
+purify$ -- 88
 quote$ -- 0
-skip$ -- 329
+skip$ -- 180
 stack$ -- 0
-substring$ -- 68
-swap$ -- 91
-text.length$ -- 22
-text.prefix$ -- 1
+substring$ -- 22
+swap$ -- 19
+text.length$ -- 0
+text.prefix$ -- 0
 top$ -- 0
-type$ -- 338
+type$ -- 121
 warning$ -- 1
-while$ -- 98
+while$ -- 33
 width$ -- 0
-write$ -- 462
-(There was 1 warning)
+write$ -- 170
+(There were 2 warnings)
