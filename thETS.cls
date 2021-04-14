@@ -72,7 +72,6 @@
 %%  - Simple interligne pour les titres longs
 %%  - Correction du nombre de sauts de ligne entre l'abstract et les mots clés
 %%  - Correction du comportement des listes (de figure, table et table de matieres) au niveau du retour a la ligne
-%%
 %% Modifications par Christophe Pagano (cpagano@livia.etsmtl.ca)
 %% [19 Avril 2013]
 %% -Compatibilité avec la nouvelle version du package caption
@@ -351,7 +350,6 @@
 \RequirePackage{helvet, courier} %% Times est obsolète
 \RequirePackage{etoolbox}
 \RequirePackage{ifthen} %% Permet de réaliser des tests sur des variables
-
 \ifthenelse{\equal{\DocLang}{french}}
 {
 	\RequirePackage[french]{babel} %% Francisation du document
@@ -381,6 +379,23 @@
 \RequirePackage{enumitem} % Mise en forme des environements enumerate et itemize
 \RequirePackage{lipsum} % Pour générer du texte d'exemple
 \RequirePackage[monochrome]{xcolor} % Noir pur pour impression
+\RequirePackage{physics}
+\RequirePackage{tikz}
+\RequirePackage{cancel}
+\RequirePackage{color}
+\RequirePackage{siunitx}
+\RequirePackage{array}
+\usetikzlibrary{fadings}
+\usetikzlibrary{patterns}
+\usetikzlibrary{shadows.blur}
+\usetikzlibrary{shapes}
+\RequirePackage{multicol}
+\RequirePackage{resizegather}
+\RequirePackage[width=\textwidth]{svg}
+\RequirePackage{mathdots}
+\RequirePackage{mathtools}
+\RequirePackage{booktabs}
+
 
 
 %% Exec de l'option web pour activer hyperref (Menegon 26-07-2010)
