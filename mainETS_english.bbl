@@ -1,0 +1,124 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Bkassiny}\emph{ et~al.}(2013){Bkassiny},
+  {Li}~\&~{Jayaweera}]{6336689}
+{Bkassiny}, M., {Li}, Y.~\&~{Jayaweera}, S.~K.
+\newblock (2013).
+\newblock A Survey on Machine-Learning Techniques in Cognitive Radios.
+\newblock \emph{IEEE Communications Surveys Tutorials}, 15(3), 1136-1159.
+\newblock doi:~\detokenize{10.1109/SURV.2012.100412.00017}.
+
+\bibitem[{Dastangoo}\emph{ et~al.}(2016){Dastangoo}, {Fossa},
+  {Gwon}~\&~{Kung}]{CCRN_Dastangoo_Fossa}
+{Dastangoo}, S., {Fossa}, C.~E., {Gwon}, Y.~L.~\&~{Kung}, H.
+\newblock (2016).
+\newblock Competing Cognitive Resilient Networks.
+\newblock \emph{IEEE Transactions on Cognitive Communications and Networking},
+  2(1), 95-109.
+\newblock doi:~\detokenize{10.1109/TCCN.2016.2570798}.
+
+\bibitem[{Gwon}\emph{ et~al.}(2013){Gwon}, {Dastangoo},
+  {Fossa}~\&~{Kung}]{FossaEtGwonComMobNetGame}
+{Gwon}, Y., {Dastangoo}, S., {Fossa}, C.~\&~{Kung}, H.~T.
+\newblock (2013,~Oct).
+\newblock Competing Mobile Network Game: Embracing antijamming and jamming
+  strategies with reinforcement learning.
+\newblock \emph{2013 IEEE Conference on Communications and Network Security
+  (CNS)}, pp.~28-36.
+\newblock doi:~\detokenize{10.1109/CNS.2013.6682689}.
+
+\bibitem[H.\emph{ et~al.}(2016)H., A.~\&~D.]{ACM:HasseltetSilver}
+H., H., A., G.~\&~D., S.
+\newblock (2016).
+\newblock Deep Reinforcement Learning with Double Q-Learning.
+\newblock \emph{Proceedings of the Thirtieth AAAI Conference on Artificial
+  Intelligence}, (AAAI'16).
+
+\bibitem[{Han}\emph{ et~al.}(2017){Han}, {Xiao}~\&~{Poor}]{PoorEtHan}
+{Han}, G., {Xiao}, L.~\&~{Poor}, H.~V.
+\newblock (2017,~March).
+\newblock Two-dimensional anti-jamming communication based on deep
+  reinforcement learning.
+\newblock \emph{2017 IEEE International Conference on Acoustics, Speech and
+  Signal Processing (ICASSP)}, pp.~2087-2091.
+\newblock doi:~\detokenize{10.1109/ICASSP.2017.7952524}.
+
+\bibitem[Huynh\emph{ et~al.}(2020)Huynh, Hoang,
+  Nguyen~\&~Dutkiewicz]{vanhuynh2020deepfake}
+Huynh, N.~V., Hoang, D.~T., Nguyen, D.~N.~\&~Dutkiewicz, E.
+\newblock (2020).
+\newblock DeepFake: Deep Dueling-based Deception Strategy to Defeat Reactive
+  Jammers.
+
+\bibitem[Kasturi\emph{ et~al.}(2020)Kasturi,
+  Jain~\&~Singh]{Kasturi2020MachineLR}
+Kasturi, G., Jain, A.~\&~Singh, J.
+\newblock (2020).
+\newblock Machine Learning-Based RF Jamming Classification Techniques in
+  Wireless Ad Hoc Networks.
+
+\bibitem[Kwon\emph{ et~al.}(2020)Kwon, Choo, Kim, Yoon,
+  Min~\&~Gwon]{kwon2020pomo}
+Kwon, Y.-D., Choo, J., Kim, B., Yoon, I., Min, S.~\&~Gwon, Y.
+\newblock (2020).
+\newblock POMO: Policy Optimization with Multiple Optima for Reinforcement
+  Learning.
+
+\bibitem[{Li}\emph{ et~al.}(2019){Li}, {Wang}, {Li}, {Zhang},
+  {Dang}~\&~{Li}]{ICC:LietWangAntiJamUltraDenseNetwork}
+{Li}, W., {Wang}, J., {Li}, L., {Zhang}, G., {Dang}, Z.~\&~{Li}, S.
+\newblock (2019).
+\newblock Intelligent Anti-Jamming Communication with Continuous Action
+  Decision for Ultra-Dense Network.
+\newblock \emph{ICC 2019 - 2019 IEEE International Conference on Communications
+  (ICC)}, pp.~1-7.
+\newblock doi:~\detokenize{10.1109/ICC.2019.8761578}.
+
+\bibitem[{Liu}\emph{ et~al.}(2019){Liu}, {Xu}, {Chen}, {Wang}, {Wang}, {Li},
+  {Li}~\&~{Xu}]{liu_xu_chen_wang_wang_li_li_xu_2019}
+{Liu}, S., {Xu}, Y., {Chen}, X., {Wang}, X., {Wang}, M., {Li}, W., {Li},
+  Y.~\&~{Xu}, Y.
+\newblock (2019).
+\newblock Pattern-Aware Intelligent Anti-Jamming Communication: A Sequential
+  Deep Reinforcement Learning Approach.
+\newblock \emph{IEEE Access}, 7, 169204-169216.
+\newblock doi:~\detokenize{10.1109/ACCESS.2019.2954531}.
+
+\bibitem[Mnih\emph{ et~al.}(2015)Mnih, Kavukcuoglu, Silver, Rusu, Veness,
+  Bellemare, Graves, Riedmiller, Fidjeland, Ostrovski, Petersen, Beattie,
+  Sadik, Antonoglou, King, Kumaran, Wierstra,
+  Legg~\&~Hassabis]{mnih2015humanlevel}
+Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A.~A., Veness, J., Bellemare,
+  M.~G., Graves, A., Riedmiller, M., Fidjeland, A.~K., Ostrovski, G., Petersen,
+  S., Beattie, C., Sadik, A., Antonoglou, I., King, H., Kumaran, D., Wierstra,
+  D., Legg, S.~\&~Hassabis, D.
+\newblock (2015).
+\newblock Human-level control through deep reinforcement learning.
+\newblock \emph{Nature}, 518(7540), 529--533.
+\newblock \biburlrep~\biburlpart~\url{http://dx.doi.org/10.1038/nature14236}.
+
+\bibitem[{Sabharwal}\emph{ et~al.}(2014){Sabharwal}, {Schniter}, {Guo},
+  {Bliss}, {Rangarajan}~\&~{Wichman}]{WichmanWirelessChallengesandOp}
+{Sabharwal}, A., {Schniter}, P., {Guo}, D., {Bliss}, D.~W., {Rangarajan},
+  S.~\&~{Wichman}, R.
+\newblock (2014).
+\newblock In-Band Full-Duplex Wireless: Challenges and Opportunities.
+\newblock \emph{IEEE Journal on Selected Areas in Communications}, 32(9),
+  1637-1652.
+\newblock doi:~\detokenize{10.1109/JSAC.2014.2330193}.
+
+\bibitem[{Sun}\emph{ et~al.}(2019){Sun}, {Peng}, {Zhou},
+  {Huang}~\&~{Mao}]{8743390}
+{Sun}, Y., {Peng}, M., {Zhou}, Y., {Huang}, Y.~\&~{Mao}, S.
+\newblock (2019).
+\newblock Application of Machine Learning in Wireless Networks: Key Techniques
+  and Open Issues.
+\newblock \emph{IEEE Communications Surveys Tutorials}, 21(4), 3072-3108.
+\newblock doi:~\detokenize{10.1109/COMST.2019.2924243}.
+
+\end{thebibliography}

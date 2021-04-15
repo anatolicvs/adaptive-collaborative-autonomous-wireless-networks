@@ -1,16 +1,16 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: /Users/aytacozkan/Desktop/ETSMTL-Reading-list/thesis-adaptive-collaborative-autonomous-wireless-networks/.texpadtmp/mainETS_english.aux
-The style file: ../bibETS.bst
+The top-level auxiliary file: mainETS_english.aux
+The style file: bibETS.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: ../biblio_en.bib
+Database file #1: biblio_en.bib
 Warning--string name "feb" is undefined
---line 52 of file ../biblio_en.bib
+--line 52 of file biblio_en.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty pages in ACM:HasseltetSilver
 You've used 13 entries,
             3211 wiz_defined-function locations,
-            706 strings with 8147 characters,
+            706 strings with 7909 characters,
 and the built_in function-call counts, 7151 in all, are:
 = -- 607
 > -- 679

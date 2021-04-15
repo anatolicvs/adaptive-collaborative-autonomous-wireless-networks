@@ -1,0 +1,24 @@
+\babel@toc {french}{}
+\contentsline {chapter}{INTRODUCTION}{1}{chapter*.8}%
+\contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Chapitre\ 1}\hfil }\uppercase {Test de long titre de Chapitre, avec retour à la ligne. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque justo justo, porta sagittis feugiat eget, ornare rhoncus ligula. Nunc non odio sed lacus rutrum rhoncus.}}}{3}{chapter.10}%
+\contentsline {section}{\numberline {1.1}Tests de mise en page}{3}{section.11}%
+\contentsline {subsection}{\numberline {1.1.1}Test des listings}{3}{subsection.12}%
+\contentsline {subsubsection}{\numberline {1.1.1.1}Énumérations: environement enum}{3}{subsubsection.13}%
+\contentsline {subsubsection}{\numberline {1.1.1.2}Listes: environement itemize}{3}{subsubsection.16}%
+\contentsline {subsection}{\numberline {1.1.2}Test des équations}{3}{subsection.17}%
+\contentsline {section}{\numberline {1.2}Seconde section}{4}{section.22}%
+\contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Chapitre\ 2}\hfil }\uppercase {Ajout d'un second chapitre}}}{5}{chapter.41}%
+\contentsline {section}{\numberline {2.1}Test de mise en page d'un tableau}{5}{section.42}%
+\contentsline {section}{\numberline {2.2}Test des références}{5}{section.44}%
+\contentsline {subsection}{\numberline {2.2.1}Références à la bibliographie}{5}{subsection.45}%
+\contentsline {subsection}{\numberline {2.2.2}Références à la liste de références "refs"}{5}{subsection.46}%
+\contentsline {subsection}{\numberline {2.2.3}Références à un label du document}{5}{subsection.47}%
+\contentsline {subsection}{\numberline {2.2.4}Références à des adresses}{6}{subsection.48}%
+\contentsline {subsubsection}{\numberline {2.2.4.1}Test de href}{6}{subsubsection.49}%
+\contentsline {subsubsection}{\numberline {2.2.4.2}Test de url}{6}{subsubsection.50}%
+\contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Chapitre\ 3}\hfil }\uppercase {Exemple de thèse par articles intégrés}}}{7}{chapter.51}%
+\contentsline {section}{\numberline {3.1}Section 1}{7}{section.52}%
+\contentsline {chapter}{CONCLUSION ET RECOMMANDATIONS}{9}{chapter*.53}%
+\contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Annexe\ I}\hfil }\uppercase {Test d'une annexe}}}{11}{chapter.54}%
+\contentsline {chapter}{BIBLIOGRAPHIE}{12}{tableap.caption.59}%
+\contentsline {chapter}{LISTE DE RÉFÉRENCES}{15}{chapter*.60}%
