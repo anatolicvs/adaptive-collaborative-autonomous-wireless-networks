@@ -199,7 +199,7 @@ So we can divide our main objective into three sub sections and each of them add
 
 We assume in the wireless ad-hoc network, there are two communication node (CN) and one reactive jammer. Also CN1 and CN2 has data connection, which means they can transmit to the data to each other. In addition, the ad-hoc network is multi-channel. Constraints, respectively CN's power storage (limit), channel bandwidth, installed CPU or GPU power on the CN. 
 
-\subsubsection{Objectives}
+\subsection{Objectives}
 
 \begin{itemize}
  \item {In the infinite time space, we are going to build a Machine Learning model which will take as input frequencies by sensing from the wireless network, and try to predict jammer next action (channel estimation), literally means that try to find out the next communication channel will jam. And it will allow us to find out the Jamming activity pattern in the ad-hoc network, and by analyzing these patterns we are going to concrete  mitigation strategies. So, related research will propose novel techniques to answer the question below,
@@ -213,89 +213,35 @@ We assume in the wireless ad-hoc network, there are two communication node (CN) 
 
  \item{In second item we introduced collective (transfer learning) technique, but when a jamming attack hit the wireless network, there won't be any data transmission in this condition, each CNs have to run their own learning algorithm. } 
  
- \end{itemize}
-
-
-\subsection{Equations tests}
-
-Layout of the equations:
-
-\begin{equation}
-   \beta = 8
-\end{equation}
-
-\begin{equation}
-   \gamma = \alpha \times 3
-\end{equation}
-
-\section{Second section}
-
-Example of a second section, to test the layout in the table of contents.
-
-\begin{algorithm}[!h]
-
-\caption{Algorithm example}
-
-\KwIn{Gallery with initial templates $\mathcal G = \{\textbf{r}_1,...,\textbf{r}_J\}$, unlabeled adaptation set $\mathcal D = \{\textbf{d}_{1},...,\textbf{d}_{L}\}$}
-\KwOut{Updated Gallery $\mathcal G' = \{\textbf{r}_1,...,\textbf{r}_{J'}\}$, $J' \geq J$}
-\BlankLine
-\BlankLine
-
-Estimate updating threshold $\gamma^u \geq \gamma^d$ from $\mathcal G$\;
-
-$\mathcal G \leftarrow \mathcal G'$\tcc*{update gallery}
-
-	\For{all samples $d_l \in \mathcal D$ ($l=1,...,L$)}{
-		\For{all references $r_j \in \mathcal G$ ($j=1,...,J$)}{
-			$s_j(\textbf{d}_l) \leftarrow similarity\_measure(\textbf{d}_l,\textbf{r}_j)$\;
-		}
-	}
-	
-	$S(\textbf{d}_l) \leftarrow \max\limits_{j \in [1,J]}\{s_j(\textbf{d}_l)\}$\;
-	
-	\If{$S(\textbf{d}_l) \geq \gamma_d$}{
-		Output positive prediction\;
-		
-		\If{$S(\textbf{d}_l)\geq \gamma^u$}{
-			$\mathcal{G'} \leftarrow \mathcal{G'} \cup \textbf{d}_l$\;
-		}
-		
-	}
-\end{algorithm}
+\end{itemize}
 
 %%- Second demo chapter -%%
 \chapter{Literature Review}
 
-\section{Table layout tests}
-
-Tables have the same constraints than the figures, except for the caption that has to be on top.
-
-
-\begin{table}
-\centering
-		\parbox{0.65\textwidth}{\caption{Test of a long table caption, with linebreak}} % Contrainte manuelle de la largeur de la légende
-		
-		\begin{tabular}{|c|c|c|c|c|c|c|c|}
-		\hline
-			{\bf titre} & {\bf titre} & {\bf titre} & {\bf titre} & {\bf titre} & {\bf titre} & {\bf titre} & {\bf titre} \\
-	  \hline
-			blá & blá & blá & blá & blá & blá & blá & blá \\
-	  \hline
-			blá & blá & blá & blá & blá & blá & blá & blá \\
-	  \hline
-			blá & blá & blá & blá & blá & blá & blá & blá \\
-	  \hline
-			blá & blá & blá & blá & blá & blá & blá & blá \\
-	  \hline
-			blá & blá & blá & blá & blá & blá & blá & blá \\
-	  \hline
-			blá & blá & blá & blá & blá & blá & blá & blá \\
-	  \hline
-		\end{tabular}
-\end{table}
-
 
 \chapter{Proposed methodologies}
+
+\section{Preliminaries}
+
+
+\subsection{Fundamentals of Transfer Learning}
+
+
+Transfer Learning, simply learned knowledge will be transferred from the source domain to the target domain to improve the learning process of the target task. Thus, in the following, we first present the definition of a "domain" and a "task". In our research problem, source domain is communication node (CN) that underwent by the jammer attacks, And the target domain likelihood the closest unattacked communication node in the wireless network.
+
+\begin{definition}
+''Domain: A domain $\displaystyle \mathcal{D}$ is defined by two parts: (i) a feature space $\displaystyle \mathcal{X}$ and (ii) a marginal probability distribution $\displaystyle \mathcal{P}( X)$ in which $\displaystyle X\ =\ \{x_{1,\dotsc ,x_{n}}\} \ \in \ \mathcal{X}$ where $\displaystyle n$ is the number of feature vectors in $\displaystyle \mathcal{X} .$ As such $\displaystyle \mathcal{D} \ =\ \{\mathcal{X} ,\mathcal{P}( X)\}$."
+\end{definition}
+
+\begin{definition}
+"Task: given domain $\displaystyle \mathcal{D}$, a task $\displaystyle \mathcal{T}$ is defined by two parts: (i) a label space $\displaystyle \mathcal{L}$ and (ii) a predictive function $\displaystyle f( .)$. The predictive function (or decision function) is learned from the feature vector and label space pairs $\displaystyle \{x_{i,\ l_{i}}\}$, with \ $\displaystyle x_{i} \ \in \ X$ and $\displaystyle l_{i} \ \in \ \mathcal{L}$. In other words, a task is defined by $\displaystyle \mathcal{T} \ =\ \{\mathcal{L} ,\ f( .)\}$."
+\end{definition}
+
+\begin{definition}
+"Transfer Learning: Given a source domain $\displaystyle \mathcal{D}_{S}$ with a corresponding source task \ $\displaystyle \mathcal{T}_{S}$ and a target domain $\displaystyle \mathcal{D}_{T}$ with a corresponding target task $\displaystyle \mathcal{T}_{T}$, the goal of TL is to learn the target predictive function $\displaystyle f_{T}( .)$ by leveraging the knowledge gained from $\displaystyle \mathcal{D}_{S}$ and $\displaystyle \mathcal{T}_{S}$ where $\displaystyle \mathcal{D}_{S} \ \neq \ \mathcal{D}_{T}$ or $\displaystyle \mathcal{T}_{S} \ \neq \ \mathcal{T}_{T}$."
+\end{definition}
+
+
 
 \section{Problem Statement}
 
@@ -351,6 +297,38 @@ u^{( k)}_{s} \ =\ SINR( k) \ -\ C_{m} f\left( P^{I}_{J}( k) \ =\ P^{L}_{j}( k)\r
 \end{equation}
 
 where $\displaystyle C_{S}$ and $\displaystyle P^{\max}_{S}$ denote the unit transmission cost and the maximum transmit power respectively. 
+
+\begin{algorithm}[!h]
+
+\caption{Algorithm example}
+
+\KwIn{Gallery with initial templates $\mathcal G = \{\textbf{r}_1,...,\textbf{r}_J\}$, unlabeled adaptation set $\mathcal D = \{\textbf{d}_{1},...,\textbf{d}_{L}\}$}
+\KwOut{Updated Gallery $\mathcal G' = \{\textbf{r}_1,...,\textbf{r}_{J'}\}$, $J' \geq J$}
+\BlankLine
+\BlankLine
+
+Estimate updating threshold $\gamma^u \geq \gamma^d$ from $\mathcal G$\;
+
+$\mathcal G \leftarrow \mathcal G'$\tcc*{update gallery}
+
+	\For{all samples $d_l \in \mathcal D$ ($l=1,...,L$)}{
+		\For{all references $r_j \in \mathcal G$ ($j=1,...,J$)}{
+			$s_j(\textbf{d}_l) \leftarrow similarity\_measure(\textbf{d}_l,\textbf{r}_j)$\;
+		}
+	}
+	
+	$S(\textbf{d}_l) \leftarrow \max\limits_{j \in [1,J]}\{s_j(\textbf{d}_l)\}$\;
+	
+	\If{$S(\textbf{d}_l) \geq \gamma_d$}{
+		Output positive prediction\;
+		
+		\If{$S(\textbf{d}_l)\geq \gamma^u$}{
+			$\mathcal{G'} \leftarrow \mathcal{G'} \cup \textbf{d}_l$\;
+		}
+		
+	}
+\end{algorithm}
+
 
 \chapter{Preliminary Results}
 

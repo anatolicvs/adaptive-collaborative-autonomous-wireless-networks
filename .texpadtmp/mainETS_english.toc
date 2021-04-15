@@ -2,15 +2,14 @@
 \contentsline {chapter}{INTRODUCTION}{1}{chapter*.9}%
 \contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Chapter\ 1}\hfil }\uppercase {Research Objectives, Motivation, Research Questions}}}{3}{chapter.10}%
 \contentsline {section}{\numberline {1.1}Research Objectives}{3}{section.11}%
-\contentsline {subsubsection}{\numberline {1.1.0.1}Objectives}{3}{subsubsection.12}%
-\contentsline {subsection}{\numberline {1.1.1}Equations tests}{4}{subsection.13}%
-\contentsline {section}{\numberline {1.2}Second section}{5}{section.18}%
-\contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Chapter\ 2}\hfil }\uppercase {Literature Review}}}{7}{chapter.36}%
-\contentsline {section}{\numberline {2.1}Table layout tests}{7}{section.37}%
-\contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Chapter\ 3}\hfil }\uppercase {Proposed methodologies}}}{9}{chapter.39}%
-\contentsline {section}{\numberline {3.1}Problem Statement}{9}{section.40}%
-\contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Chapter\ 4}\hfil }\uppercase {Preliminary Results}}}{11}{chapter.46}%
-\contentsline {chapter}{CONCLUSION AND RECOMMENDATIONS}{13}{chapter*.47}%
-\contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Appendix\ I}\hfil }\uppercase {Appendix example}}}{15}{chapter.48}%
-\contentsline {chapter}{BIBLIOGRAPHY}{17}{tableap.caption.54}%
-\contentsline {chapter}{LIST OF REFERENCES}{19}{chapter*.55}%
+\contentsline {subsection}{\numberline {1.1.1}Objectives}{3}{subsection.12}%
+\contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Chapter\ 2}\hfil }\uppercase {Literature Review}}}{5}{chapter.13}%
+\contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Chapter\ 3}\hfil }\uppercase {Proposed methodologies}}}{7}{chapter.14}%
+\contentsline {section}{\numberline {3.1}Preliminaries}{7}{section.15}%
+\contentsline {subsection}{\numberline {3.1.1}Fundamentals of Transfer Learning}{7}{subsection.16}%
+\contentsline {section}{\numberline {3.2}Problem Statement}{7}{section.20}%
+\contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Chapter\ 4}\hfil }\uppercase {Preliminary Results}}}{11}{chapter.43}%
+\contentsline {chapter}{CONCLUSION AND RECOMMENDATIONS}{13}{chapter*.44}%
+\contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Appendix\ I}\hfil }\uppercase {Appendix example}}}{15}{chapter.45}%
+\contentsline {chapter}{BIBLIOGRAPHY}{17}{tableap.caption.51}%
+\contentsline {chapter}{LIST OF REFERENCES}{19}{chapter*.52}%
