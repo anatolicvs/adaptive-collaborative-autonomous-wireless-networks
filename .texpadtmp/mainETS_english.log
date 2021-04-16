@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  15 APR 2021 18:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.12)  16 APR 2021 03:23
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1330,44 +1330,44 @@ Package newfloat Info: float type `tableap'=8 on input line 1807.
  (/Users/aytacozkan/Desktop/ETSMTL-Reading-list/thesis-adaptive-collaborative-autonomous-wireless-networks/.texpadtmp/mainETS_english.aux)
 \openout1 = `mainETS_english.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 75.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 75.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 73.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 73.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 75.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 75.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 73.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 73.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 75.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 75.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 73.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 73.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 75.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 75.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 73.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 73.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
 \c@mv@tabular=\count383
 \c@mv@boldtabular=\count384
  (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1439,9 +1439,9 @@ Package svg Warning: No version of Inkscape was detected by invoking
 (svg)                so the Inkscape export will fail quite sure as the
 (svg)                command is probably unknown to your OS. You could set
 (svg)                `inkscapeversion=<version>' manually but this is very
-(svg)                unlikely to work on input line 75.
+(svg)                unlikely to work on input line 73.
 
-Package hyperref Info: Link coloring OFF on input line 75.
+Package hyperref Info: Link coloring OFF on input line 73.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1451,21 +1451,21 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count392
 )
-LaTeX Info: Redefining \ref on input line 75.
-LaTeX Info: Redefining \pageref on input line 75.
-LaTeX Info: Redefining \nameref on input line 75.
+LaTeX Info: Redefining \ref on input line 73.
+LaTeX Info: Redefining \pageref on input line 73.
+LaTeX Info: Redefining \nameref on input line 73.
  (/Users/aytacozkan/Desktop/ETSMTL-Reading-list/thesis-adaptive-collaborative-autonomous-wireless-networks/.texpadtmp/mainETS_english.out) (/Users/aytacozkan/Desktop/ETSMTL-Reading-list/thesis-adaptive-collaborative-autonomous-wireless-networks/.texpadtmp/mainETS_english.out)
 \@outlinefile=\write5
 \openout5 = `mainETS_english.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 75.
+LaTeX Info: Redefining \microtypecontext on input line 73.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 75.
+LaTeX Info: Redefining \showhyphens on input line 73.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1473,86 +1473,86 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 Package newfloat Info: `float' package detected.
-LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 75.
+LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input line 73.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
 File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 75.
+(Font)              scaled to size 12.0pt on input line 73.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 75.
+(Font)              scaled to size 8.8pt on input line 73.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 75.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 75.
+(Font)              scaled to size 6.6pt on input line 73.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 73.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 75.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 73.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 75.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 73.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 75.
+(Font)              scaled to size 12.0pt on input line 73.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.8pt on input line 75.
+(Font)              scaled to size 8.8pt on input line 73.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 6.6pt on input line 75.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 75.
+(Font)              scaled to size 6.6pt on input line 73.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 75.
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 73.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 75.
+(Font)              scaled to size 10.79993pt on input line 73.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `qhv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 7.91994pt on input line 75.
+(Font)              scaled to size 7.91994pt on input line 73.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 5.93996pt on input line 75.
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 75.
+(Font)              scaled to size 5.93996pt on input line 73.
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 73.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 75.
+(Font)              scaled to size 12.0pt on input line 73.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ntxtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 8.8pt on input line 75.
+(Font)              scaled to size 8.8pt on input line 73.
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 6.6pt on input line 75.
+(Font)              scaled to size 6.6pt on input line 73.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 80.
+(Font)              scaled to size 10.95pt on input line 78.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 18.0pt on input line 80.
+(Font)              scaled to size 18.0pt on input line 78.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 16.0pt on input line 80.
+(Font)              scaled to size 16.0pt on input line 78.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.0pt on input line 80.
-<Figures/logocc.pdf, id=87, 121.45375pt x 43.16125pt>
+(Font)              scaled to size 14.0pt on input line 78.
+<Figures/logocc.pdf, id=95, 121.45375pt x 43.16125pt>
 File: Figures/logocc.pdf Graphic file (type pdf)
 <use Figures/logocc.pdf>
-Package pdftex.def Info: Figures/logocc.pdf  used on input line 80.
+Package pdftex.def Info: Figures/logocc.pdf  used on input line 78.
 (pdftex.def)             Requested size: 50.1875pt x 17.83517pt.
  [1
 color push 0 g 0 G
@@ -1567,13 +1567,13 @@ color push 0 g 0 G
 color pop
  <./Figures/logocc.pdf>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 80.
+(Font)              scaled to size 10.0pt on input line 78.
 File: Figures/logocc.pdf Graphic file (type pdf)
 <use Figures/logocc.pdf>
-Package pdftex.def Info: Figures/logocc.pdf  used on input line 80.
+Package pdftex.def Info: Figures/logocc.pdf  used on input line 78.
 (pdftex.def)             Requested size: 50.1875pt x 17.83517pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
@@ -1585,7 +1585,7 @@ color push 0 g 0 G
 color pop
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 83.
+(Font)              scaled to size 12.0pt on input line 81.
  [3
 color push 0 g 0 G
 color pop
@@ -1772,12 +1772,12 @@ color pop
 color push 0 g 0 G
 color pop
 ]
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 173.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 171.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 173.
+(Font)              scaled to size 12.0pt on input line 171.
  [1
 color push 0 g 0 G
 color pop
@@ -1789,7 +1789,7 @@ color push 0 g 0 G
 color pop
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sl' will be
-(Font)              scaled to size 12.0pt on input line 188.
+(Font)              scaled to size 12.0pt on input line 186.
  [2
 color push 0 g 0 G
 color pop
@@ -1845,15 +1845,7 @@ color pop
 ]
 Chapter 3
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 232.
-
-Overfull \hbox (25.19998pt too wide) in paragraph at lines 250--275
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+(Font)              scaled to size 12.0pt on input line 231.
 [7
 color push 0 g 0 G
 color pop
@@ -1874,14 +1866,46 @@ color push 0 g 0 G
 color pop
 color push 0 g 0 G
 color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+] [9
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+]
+Overfull \hbox (25.19998pt too wide) in paragraph at lines 297--322
+ [][] 
+ []
+
+[10
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+] [11
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 305.
+(Font)              scaled to size 8.8pt on input line 352.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 305.
+(Font)              scaled to size 6.6pt on input line 352.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 310.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 312.
+(Font)              scaled to size 8.0pt on input line 357.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 359.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
@@ -1890,12 +1914,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 12.0pt on input line 330.
+(Font)              scaled to size 12.0pt on input line 377.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 8.8pt on input line 330.
+(Font)              scaled to size 8.8pt on input line 377.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 6.6pt on input line 330.
- [9
+(Font)              scaled to size 6.6pt on input line 377.
+ [12
 color push 0 g 0 G
 color pop
 color push 0 g 0 G
@@ -1912,32 +1936,14 @@ color pop
 color pop
 color pop
 color pop
-color push 0 g 0 G
-color pop
-] [10
-color push 0 g 0 G
-color pop
-
 color push 0 g 0 G
 color pop
 ]
 Chapter 4
-[11
-color push 0 g 0 G
-color pop
-color push 0 g 0 G
-color pop
-color push 0 g 0 G
-color pop
-] [12
+[13
 color push 0 g 0 G
 color pop
 
-color push 0 g 0 G
-color pop
-] [13
-color push 0 g 0 G
-color pop
 color push 0 g 0 G
 color pop
 color push 0 g 0 G
@@ -1948,36 +1954,49 @@ color pop
 
 color push 0 g 0 G
 color pop
+] [15
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
+] [16
+color push 0 g 0 G
+color pop
+
+color push 0 g 0 G
+color pop
 ]
 Appendix I
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 358.
+(Font)              scaled to size 17.28pt on input line 405.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 358.
-<Figures/vueEts.jpg, id=326, 1003.75pt x 447.6725pt>
+(Font)              scaled to size 17.28pt on input line 405.
+<Figures/vueEts.jpg, id=356, 1003.75pt x 447.6725pt>
 File: Figures/vueEts.jpg Graphic file (type jpg)
 <use Figures/vueEts.jpg>
-Package pdftex.def Info: Figures/vueEts.jpg  used on input line 367.
+Package pdftex.def Info: Figures/vueEts.jpg  used on input line 414.
 (pdftex.def)             Requested size: 338.76563pt x 151.09319pt.
-Package hyperref Info: bookmark level for unknown figureap defaults to 0 on input line 368.
+Package hyperref Info: bookmark level for unknown figureap defaults to 0 on input line 415.
 File: Figures/vueEts.jpg Graphic file (type jpg)
 <use Figures/vueEts.jpg>
-Package pdftex.def Info: Figures/vueEts.jpg  used on input line 387.
+Package pdftex.def Info: Figures/vueEts.jpg  used on input line 434.
 (pdftex.def)             Requested size: 206.98761pt x 92.3131pt.
 File: Figures/vueEts.jpg Graphic file (type jpg)
 <use Figures/vueEts.jpg>
-Package pdftex.def Info: Figures/vueEts.jpg  used on input line 387.
+Package pdftex.def Info: Figures/vueEts.jpg  used on input line 434.
 (pdftex.def)             Requested size: 206.98761pt x 92.3131pt.
 File: Figures/vueEts.jpg Graphic file (type jpg)
 <use Figures/vueEts.jpg>
-Package pdftex.def Info: Figures/vueEts.jpg  used on input line 387.
+Package pdftex.def Info: Figures/vueEts.jpg  used on input line 434.
 (pdftex.def)             Requested size: 206.98761pt x 92.3131pt.
 File: Figures/vueEts.jpg Graphic file (type jpg)
 <use Figures/vueEts.jpg>
-Package pdftex.def Info: Figures/vueEts.jpg  used on input line 387.
+Package pdftex.def Info: Figures/vueEts.jpg  used on input line 434.
 (pdftex.def)             Requested size: 206.98761pt x 92.3131pt.
-Package hyperref Info: bookmark level for unknown tableap defaults to 0 on input line 396.
-[15
+Package hyperref Info: bookmark level for unknown tableap defaults to 0 on input line 443.
+[17
 color push 0 g 0 G
 color pop
 color push 0 g 0 G
@@ -1992,7 +2011,7 @@ color pop
 color pop
 color push 0 g 0 G
 color pop
- <./Figures/vueEts.jpg>] (/Users/aytacozkan/Desktop/ETSMTL-Reading-list/thesis-adaptive-collaborative-autonomous-wireless-networks/.texpadtmp/mainETS_english.bbl [16
+ <./Figures/vueEts.jpg>] (/Users/aytacozkan/Desktop/ETSMTL-Reading-list/thesis-adaptive-collaborative-autonomous-wireless-networks/.texpadtmp/mainETS_english.bbl [18
 color push 0 g 0 G
 color pop
 color push 0 g 0 G
@@ -2009,7 +2028,7 @@ color pop
 color pop
 color push 0 g 0 G
 color pop
-] [17
+] [19
 color push 0 g 0 G
 color pop
 
@@ -2039,7 +2058,11 @@ color push 0 g 0 G
 color pop
 color push 0 g 0 G
 color pop
-]) [18
+]) [20
+color push 0 g 0 G
+color pop
+color push 0 g 0 G
+color pop
 color push 0 g 0 G
 color pop
 color push 0 g 0 G
@@ -2052,7 +2075,7 @@ color pop
 
 Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
-) [19
+) [21
 color push 0 g 0 G
 color pop
 
@@ -2246,21 +2269,21 @@ mainETS_english.bbl
  ***********
 
 Package rerunfilecheck Info: File `mainETS_english.out' has not changed.
-(rerunfilecheck)             Checksum: 48BF982AA84BDA77AB8FFE3DE222EE9B;2496.
+(rerunfilecheck)             Checksum: C1C5403AA2DD974A8198F5DFDCCC381C;3013.
  ) 
 Here is how much of TeX's memory you used:
- 38213 strings out of 478994
- 713248 string characters out of 5858184
- 1354608 words of memory out of 5000000
- 54573 multiletter control sequences out of 15000+600000
- 510055 words of font info for 222 fonts, out of 8000000 for 9000
+ 38260 strings out of 478994
+ 713980 string characters out of 5858184
+ 1353670 words of memory out of 5000000
+ 54587 multiletter control sequences out of 15000+600000
+ 512411 words of font info for 236 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 112i,16n,131p,902b,972s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on /Users/aytacozkan/Desktop/ETSMTL-Reading-list/thesis-adaptive-collaborative-autonomous-wireless-networks/.texpadtmp/mainETS_english.pdf (43 pages, 414352 bytes).
+ 112i,16n,131p,1164b,1072s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on /Users/aytacozkan/Desktop/ETSMTL-Reading-list/thesis-adaptive-collaborative-autonomous-wireless-networks/.texpadtmp/mainETS_english.pdf (45 pages, 427957 bytes).
 PDF statistics:
- 446 PDF objects out of 1000 (max. 8388607)
- 356 compressed objects within 4 object streams
- 108 named destinations out of 1000 (max. 500000)
- 69351 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 485 PDF objects out of 1000 (max. 8388607)
+ 391 compressed objects within 4 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 73463 words of extra memory for PDF output out of 74296 (max. 10000000)
 

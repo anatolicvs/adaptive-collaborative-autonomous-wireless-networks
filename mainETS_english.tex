@@ -51,11 +51,9 @@
 
 %\directeur{Mrs.}{Prénom Nom}{Nom du département et institution}
 
-\codirecteur{M.}{Pr. Louis Rivest}{PhD Program's Director}
+\president{M.}{Pr. Louis Rivest}{PhD Program's Director}
 
 %\codirecteurB{M.}{Prénom Nom}{département et institution}
-
-\president{M.}{First Name Last Name}{Department and institution}
 
 \examinexterne{M.}{First Name Last Name}{Department and institution}
 
@@ -212,10 +210,11 @@ We assume in the wireless ad-hoc network, there are two communication node (CN) 
  }
 
  \item{In second item we introduced collective (transfer learning) technique, but when a jamming attack hit the wireless network, there won't be any data transmission in this condition, each CNs have to run their own learning algorithm. } 
- 
 \end{itemize}
 
-%%- Second demo chapter -%%
+
+
+
 \chapter{Literature Review}
 
 
@@ -240,6 +239,54 @@ Transfer Learning, simply learned knowledge will be transferred from the source 
 \begin{definition}
 "Transfer Learning: Given a source domain $\displaystyle \mathcal{D}_{S}$ with a corresponding source task \ $\displaystyle \mathcal{T}_{S}$ and a target domain $\displaystyle \mathcal{D}_{T}$ with a corresponding target task $\displaystyle \mathcal{T}_{T}$, the goal of TL is to learn the target predictive function $\displaystyle f_{T}( .)$ by leveraging the knowledge gained from $\displaystyle \mathcal{D}_{S}$ and $\displaystyle \mathcal{T}_{S}$ where $\displaystyle \mathcal{D}_{S} \ \neq \ \mathcal{D}_{T}$ or $\displaystyle \mathcal{T}_{S} \ \neq \ \mathcal{T}_{T}$."
 \end{definition}
+
+\subsection{Transfer Learning Techniques}
+
+The key fundamental of TL is utilizing knowledge learned from the source domain to improve the learning of the tar- get domain. To guarantee a good transfer performance, the following three main issues need to be taken into account.
+
+\begin{itemize}
+	\item What to transfer: Deciding what will be transferred is the most critical step in TL. To address this issue, one needs to decide which part of learned knowledge will be transferred to improve the learning process of the target domain. This stems from the fact that not all learned knowledge from the source domain will be useful for the target domain in many scenarios. For example, some knowledge can be common in both the source and the target domains, whereas some knowledge is specific to the source domain but not the target domain.
+	\item When to transfer: Transferring knowledge is not always helpful in speeding up the learning process of the target domain. Thus, one needs to know when the knowledge should not be transferred. For instance, if the target domain does not have anything in common with the source domain, i.e., they are not related, TL may not improve the learning process and even make the learning process less effective (i.e., negative transfer).
+	\item How to transfer: Once the what and when questions have been addressed, one can proceed to transfer learned knowledge to the target domain. This process requires different techniques and designs to maximize the trans- ferring utilization at the target domain.
+\end{itemize}
+
+
+\subsection{Transfer Learning in Deep Reinforcement Learning}
+
+In this section, we first provide fundamental knowledge for DRL and then discuss how TL can be applied to improve the performance of DRL algorithms.
+
+\begin{enumerate}
+	\item Deep Reinforcement Learning:
+	\begin{enumerate}
+		\item {Markov decision process (MDP): MDP is widely used to formulate dynamic decision-making problems. Typically, an MDP is determined by four elements, including a state space $\displaystyle \mathcal{S}$, an action space $\displaystyle \mathcal{A}$, transition probabilities $\displaystyle \mathcal{P}$, i.e., the probability that a state $\displaystyle s_{t}$ at time $\displaystyle t$ moves to state $\displaystyle s_{t+1}$ at time $\displaystyle t\ +1$ after action $\displaystyle a_{t}$ at state $\displaystyle s_{t}$. A mapping from the state space to the action a space is called a policy, denoted by $\displaystyle \pi $. The objective of MDP is usually to find an optimal policy $\displaystyle \pi ^{*}$ that maximizes an expected discounted total reward, i.e., $ $$\displaystyle \pi ^{*} \ =\ \max_{\pi }\mathbb{E}_{\pi }\left[\sum\nolimits ^{T}_{t=0} \gamma ^{t} r_{t}( s_{t} ,\pi ( s_{t}))\right]$ where $\displaystyle a_{t} \ =\ \pi ( s_{t}) ,\mathbb{E}[ .]$ is the expectation function, and $\displaystyle \gamma \ \in \ [ 0,1)$ is the discount factor representing the importance of future rewards.
+	 In particular representing the importance of future rewards. In particular, the larger the discount factor is, the more important future rewards are. In practice, due to outstanding abilities to deal with uncertainties in intelligent systems, MDP has been widely adopted to address various problems in dynamic wireless environments, such as spectrum management, cognitive radios, wireless security, and power control. \cite{7080987}}
+	 \item {Reinforcement learning (RL): RL is a unique class of ML. An RL agent operates in a dynamic environment formulated by an MDP framework, and its goal is to learn an optimal policy to maximize the expected discounted total reward. During the learning process, the agent interacts with the environment and observes results to gradually find its optimal policy. Specifically, at each time step $\displaystyle t$, the agent observes current state $\displaystyle s_{t}$,
+
+performs action $\displaystyle a_{t}$, according to its current policy, then receives an intermediate reward $\displaystyle r_{t}$ and moves to new  state $\displaystyle s_{t+1}$. After that, the agent adjust its policy based on the feedback of the environment, i.e., $\displaystyle r_{t}$ and $\displaystyle s_{t+1}$.
+
+This procedure us repeated until the agent's policy converges to the optimal one. In practice, Q-learning is one of the most widely used RL algorithms. This algorithm requires evaluating a state- action value function $\displaystyle Q^{\pi }( s,a)$, also called Q-function, that specifies how good of performing an action $\displaystyle a$ at a state $\displaystyle s$ under policy $\displaystyle \pi $. The value of each pair of state and actions is called Q-value. 
+
+The Q-function under the optimal policy $\displaystyle \pi ^{*}$ is called the optimal state-value function $\displaystyle Q^{*}( s,a)$. Suppose that values of $\displaystyle Q^{*}( s,a)$ for all state-action pairs (s,a) are known, the RL agent can obtain the optimal policy at state $\displaystyle s$ by simply taking an action that maximizes $\displaystyle Q^{*}( s,a)$ \cite{Sutton+Barto:1998}. The Q-learning employs a table, namely Q-table, store and update Q-values. Specifically, each cell in the Q-table stores an estimation of the Q-value for each state-action pair. Based on interactions between the agent and the environment at time $\displaystyle t,$ i.e., action $\displaystyle a_{t}$, intermediate reward $\displaystyle r_{t}$, and next state $\displaystyle s_{t+1}$, the Q-function is updated using the temporal difference (TD), which is difference between target Q-value, i.e., $\displaystyle Y_{t} =\ r_{t}( s_{t} ,a_{t}) \ +\ \gamma \max_{a_{t+1}} Q_{t}( s_{t+1} ,a_{t+1}) ,$ and the current estimated Q-value, i.e., $\displaystyle Q_{t}( s_{t} ,a_{s_{t}})$ as follows:
+\begin{equation}
+Q_{t}( s_{t} ,a_{t}) \ \leftarrow Q_{t}( s_{t} ,a_{t}) \ +\ \zeta _{t}[ Y_{t} -Q_{t}( s_{t,} a_{s_{t}})] .
+\end{equation}
+
+where $\displaystyle \zeta _{t}$ is the learning rate that represents the impact of new iteration, i.e., TD. If the Q-function is updated by (3.1) and the learning rate $\displaystyle \zeta _{t}$ satisfies condition in (3.2), it is proven that the policy learn by the Q-learning will converge to the optimal policy.
+
+\begin{equation}
+\zeta _{t} \ \in \ [ 0,1) ,\ \sum ^{\infty }_{t\ =1} \zeta _{t} \ =\ \infty ,\ and\ \sum ^{\infty }_{t\ =1}( \zeta _{t})^{2} \ < \ \infty .
+\end{equation}
+
+It is worth nothing that although the convergence of Q-learning is proven, this algorithm is inefficiency in the case of high dimensional state and action spaces since it uses a table for estimating $\displaystyle Q^{*}( s,a)$. Thus, DRL has been introduced recently as a highly-effective solution to address the current limitations of RL algorithms.
+
+}	     	
+	\end{enumerate} 
+\end{enumerate}
+
+
+
+
+
 
 
 
