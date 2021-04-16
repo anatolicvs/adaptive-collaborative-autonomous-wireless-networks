@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{16}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -137,5 +137,10 @@ Sutton, R.~S.~\&~Barto, A.~G.
 \newblock  Cambridge, MA, USA: MIT Press.
 \newblock
   \biburlrep~\biburlpart~\url{http://www.cs.ualberta.ca/%7Esutton/book/ebook/the-book.html}.
+
+\bibitem[Zhu\emph{ et~al.}(2021)Zhu, Lin~\&~Zhou]{zhu2021transfer}
+Zhu, Z., Lin, K.~\&~Zhou, J.
+\newblock (2021).
+\newblock Transfer Learning in Deep Reinforcement Learning: A Survey.
 
 \end{thebibliography}

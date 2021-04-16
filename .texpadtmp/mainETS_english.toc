@@ -9,9 +9,9 @@
 \contentsline {subsection}{\numberline {3.1.1}Fundamentals of Transfer Learning}{7}{subsection.16}%
 \contentsline {subsection}{\numberline {3.1.2}Transfer Learning Techniques}{8}{subsection.20}%
 \contentsline {subsection}{\numberline {3.1.3}Transfer Learning in Deep Reinforcement Learning}{8}{subsection.21}%
-\contentsline {section}{\numberline {3.2}Problem Statement}{10}{section.29}%
-\contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Chapter\ 4}\hfil }\uppercase {Preliminary Results}}}{13}{chapter.52}%
-\contentsline {chapter}{CONCLUSION AND RECOMMENDATIONS}{15}{chapter*.53}%
-\contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Appendix\ I}\hfil }\uppercase {Appendix example}}}{17}{chapter.54}%
-\contentsline {chapter}{BIBLIOGRAPHY}{19}{tableap.caption.60}%
-\contentsline {chapter}{LIST OF REFERENCES}{21}{chapter*.61}%
+\contentsline {section}{\numberline {3.2}Problem Statement}{11}{section.30}%
+\contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Chapter\ 4}\hfil }\uppercase {Preliminary Results}}}{15}{chapter.53}%
+\contentsline {chapter}{CONCLUSION AND RECOMMENDATIONS}{17}{chapter*.54}%
+\contentsline {chapter}{{\hbox to\@tempdima {\uppercase {Appendix\ I}\hfil }\uppercase {Appendix example}}}{19}{chapter.55}%
+\contentsline {chapter}{BIBLIOGRAPHY}{21}{tableap.caption.61}%
+\contentsline {chapter}{LIST OF REFERENCES}{23}{chapter*.62}%

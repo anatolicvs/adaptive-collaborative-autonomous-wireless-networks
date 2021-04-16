@@ -271,15 +271,20 @@ The Q-function under the optimal policy $\displaystyle \pi ^{*}$ is called the o
 Q_{t}( s_{t} ,a_{t}) \ \leftarrow Q_{t}( s_{t} ,a_{t}) \ +\ \zeta _{t}[ Y_{t} -Q_{t}( s_{t,} a_{s_{t}})] .
 \end{equation}
 
-where $\displaystyle \zeta _{t}$ is the learning rate that represents the impact of new iteration, i.e., TD. If the Q-function is updated by (3.1) and the learning rate $\displaystyle \zeta _{t}$ satisfies condition in (3.2), it is proven that the policy learn by the Q-learning will converge to the optimal policy.
+where $\displaystyle \zeta _{t}$ is the learning rate that represents the impact of new iteration, i.e., TD. If the Q-function is updated by (3.1) and the learning rate $\displaystyle \zeta _{t}$ satisfies condition in (3.2), it is proven that the policy learn by the Q-learning will converge to the optimal policy. \cite{zhu2021transfer}
 
 \begin{equation}
 \zeta _{t} \ \in \ [ 0,1) ,\ \sum ^{\infty }_{t\ =1} \zeta _{t} \ =\ \infty ,\ and\ \sum ^{\infty }_{t\ =1}( \zeta _{t})^{2} \ < \ \infty .
 \end{equation}
 
 It is worth nothing that although the convergence of Q-learning is proven, this algorithm is inefficiency in the case of high dimensional state and action spaces since it uses a table for estimating $\displaystyle Q^{*}( s,a)$. Thus, DRL has been introduced recently as a highly-effective solution to address the current limitations of RL algorithms.
-
 }	     	
+\item{
+Deep reinforcement learning: In a high dimension environment, which has an enormous number of states and actions, the traditional RL methods, e.g., Q-learning, may not handle it effectively. For example, considering the problem of designing an RL-based agent to play various video games without knowing the rules in advance, states can be represented by images consisting of millions of pixels, making it impractical to construct a Q-table. Furthermore, it is inefficient to learn all state-action values in all states separately as that of the Q-learning algorithm. These challenges can be effectively addressed by leveraging DNN architecture for RL algorithms, i.e., DRL. The existing DRL methods can be grouped into value- and policy-based categories.
+
+In the first category, an agent first needs to learn a value function, e.g., the Q-function, then finds the optimal policy based on this function. Most of the value-based DRL methods rely on the Q-learning algorithm, namely Deep Q-learning. Deep Q-learning employs a DNN instead of a Q-table to learn the Q-function
+
+}
 	\end{enumerate} 
 \end{enumerate}
 
