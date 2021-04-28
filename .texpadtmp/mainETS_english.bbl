@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{29}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -13,6 +13,23 @@
   Networks: A Survey.
 \newblock \emph{IEEE Communications Surveys Tutorials}, 17(3), 1239-1267.
 \newblock doi:~\detokenize{10.1109/COMST.2015.2420686}.
+
+\bibitem[Bhunia\emph{ et~al.}(2018)Bhunia, Miles,
+  Sengupta~\&~V{\'a}zquez-Abad]{Bhunia2018CRHoneynetAC}
+Bhunia, S., Miles, E., Sengupta, S.~\&~V{\'a}zquez-Abad, F.
+\newblock (2018).
+\newblock CR-Honeynet: A Cognitive Radio Learning and Decoy-Based Sustenance
+  Mechanism to Avoid Intelligent Jammer.
+\newblock \emph{IEEE Transactions on Cognitive Communications and Networking},
+  4, 567-581.
+
+\bibitem[Bi\emph{ et~al.}(2019)Bi, Wu~\&~Hua]{8761848}
+Bi, Y., Wu, Y.~\&~Hua, C.
+\newblock (2019).
+\newblock Deep Reinforcement Learning Based Multi-User Anti-Jamming Strategy.
+\newblock \emph{ICC 2019 - 2019 IEEE International Conference on Communications
+  (ICC)}, pp.~1-6.
+\newblock doi:~\detokenize{10.1109/ICC.2019.8761848}.
 
 \bibitem[{Bkassiny}\emph{ et~al.}(2013){Bkassiny},
   {Li}~\&~{Jayaweera}]{6336689}
@@ -30,6 +47,22 @@
 \newblock \emph{IEEE Transactions on Cognitive Communications and Networking},
   2(1), 95-109.
 \newblock doi:~\detokenize{10.1109/TCCN.2016.2570798}.
+
+\bibitem[Dastangoo\emph{ et~al.}(2016)Dastangoo, Fossa, Gwon~\&~Kung]{7473910}
+Dastangoo, S., Fossa, C.~E., Gwon, Y.~L.~\&~Kung, H.-T.
+\newblock (2016).
+\newblock Competing Cognitive Resilient Networks.
+\newblock \emph{IEEE Transactions on Cognitive Communications and Networking},
+  2(1), 95-109.
+\newblock doi:~\detokenize{10.1109/TCCN.2016.2570798}.
+
+\bibitem[Gingras\emph{ et~al.}(2020)Gingras, Pourranjbar~\&~Kaddoum]{9149223}
+Gingras, B., Pourranjbar, A.~\&~Kaddoum, G.
+\newblock (2020).
+\newblock Collaborative Spectrum Sensing in Tactical Wireless Networks.
+\newblock \emph{ICC 2020 - 2020 IEEE International Conference on Communications
+  (ICC)}, pp.~1-6.
+\newblock doi:~\detokenize{10.1109/ICC40277.2020.9149223}.
 
 \bibitem[{Gwon}\emph{ et~al.}(2013){Gwon}, {Dastangoo},
   {Fossa}~\&~{Kung}]{FossaEtGwonComMobNetGame}
@@ -63,6 +96,15 @@ Huynh, N.~V., Hoang, D.~T., Nguyen, D.~N.~\&~Dutkiewicz, E.
 \newblock (2020).
 \newblock DeepFake: Deep Dueling-based Deception Strategy to Defeat Reactive
   Jammers.
+
+\bibitem[Kang\emph{ et~al.}(2018)Kang, Bo, Hongwei~\&~Siyuan]{8567751}
+Kang, L., Bo, J., Hongwei, L.~\&~Siyuan, L.
+\newblock (2018).
+\newblock Reinforcement Learning based Anti-jamming Frequency Hopping
+  Strategies Design for Cognitive Radar.
+\newblock \emph{2018 IEEE International Conference on Signal Processing,
+  Communications and Computing (ICSPCC)}, pp.~1-5.
+\newblock doi:~\detokenize{10.1109/ICSPCC.2018.8567751}.
 
 \bibitem[Kasturi\emph{ et~al.}(2020)Kasturi,
   Jain~\&~Singh]{Kasturi2020MachineLR}
@@ -98,6 +140,14 @@ Kwon, Y.-D., Choo, J., Kim, B., Yoon, I., Min, S.~\&~Gwon, Y.
 \newblock \emph{IEEE Access}, 7, 169204-169216.
 \newblock doi:~\detokenize{10.1109/ACCESS.2019.2954531}.
 
+\bibitem[Liu\emph{ et~al.}(2018)Liu, Xu, Jia, Wu~\&~Anpalagan]{8314744}
+Liu, X., Xu, Y., Jia, L., Wu, Q.~\&~Anpalagan, A.
+\newblock (2018).
+\newblock Anti-Jamming Communications Using Spectrum Waterfall: A Deep
+  Reinforcement Learning Approach.
+\newblock \emph{IEEE Communications Letters}, 22(5), 998-1001.
+\newblock doi:~\detokenize{10.1109/LCOMM.2018.2815018}.
+
 \bibitem[Mnih\emph{ et~al.}(2015)Mnih, Kavukcuoglu, Silver, Rusu, Veness,
   Bellemare, Graves, Riedmiller, Fidjeland, Ostrovski, Petersen, Beattie,
   Sadik, Antonoglou, King, Kumaran, Wierstra,
@@ -121,6 +171,14 @@ Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A.~A., Veness, J., Bellemare,
   1637-1652.
 \newblock doi:~\detokenize{10.1109/JSAC.2014.2330193}.
 
+\bibitem[Slimeni\emph{ et~al.}(2018)Slimeni, Scheers, Chtourou,
+  Nir~\&~Attia]{Slimeni2018AMQ}
+Slimeni, F., Scheers, B., Chtourou, Z., Nir, V.~L.~\&~Attia, R.
+\newblock (2018).
+\newblock A modified Q-learning algorithm to solve cognitive radio jamming
+  attack.
+\newblock \emph{Int. J. Embed. Syst.}, 10, 41-51.
+
 \bibitem[{Sun}\emph{ et~al.}(2019){Sun}, {Peng}, {Zhou},
   {Huang}~\&~{Mao}]{8743390}
 {Sun}, Y., {Peng}, M., {Zhou}, Y., {Huang}, Y.~\&~{Mao}, S.
@@ -137,6 +195,54 @@ Sutton, R.~S.~\&~Barto, A.~G.
 \newblock  Cambridge, MA, USA: MIT Press.
 \newblock
   \biburlrep~\biburlpart~\url{http://www.cs.ualberta.ca/%7Esutton/book/ebook/the-book.html}.
+
+\bibitem[Van~Huynh\emph{ et~al.}(2019)Van~Huynh, Nguyen,
+  Hoang~\&~Dutkiewicz]{8792369}
+Van~Huynh, N., Nguyen, D.~N., Hoang, D.~T.~\&~Dutkiewicz, E.
+\newblock (2019).
+\newblock 'Jam Me If You Can:' Defeating Jammer With Deep Dueling Neural
+  Network Architecture and Ambient Backscattering Augmented Communications.
+\newblock \emph{IEEE Journal on Selected Areas in Communications}, 37(11),
+  2603-2620.
+\newblock doi:~\detokenize{10.1109/JSAC.2019.2933889}.
+
+\bibitem[Wu\emph{ et~al.}(2012)Wu, Wang, Liu~\&~Clancy]{6117758}
+Wu, Y., Wang, B., Liu, K. J.~R.~\&~Clancy, T.~C.
+\newblock (2012).
+\newblock Anti-Jamming Games in Multi-Channel Cognitive Radio Networks.
+\newblock \emph{IEEE Journal on Selected Areas in Communications}, 30(1), 4-15.
+
+\bibitem[Xiao\emph{ et~al.}(2018)Xiao, Li, Dai,
+  Dai~\&~Poor]{Xiao2018ReinforcementLN}
+Xiao, L., Li, Y., Dai, C., Dai, H.~\&~Poor, H.
+\newblock (2018).
+\newblock Reinforcement Learning-Based NOMA Power Allocation in the Presence of
+  Smart Jamming.
+\newblock \emph{IEEE Transactions on Vehicular Technology}, 67, 3377-3389.
+
+\bibitem[Xiao\emph{ et~al.}(2020)Xiao, Lu, Xu, Wan, Ji~\&~Zhang]{9136780}
+Xiao, L., Lu, X., Xu, T., Wan, X., Ji, W.~\&~Zhang, Y.
+\newblock (2020).
+\newblock Reinforcement Learning-Based Mobile Offloading for Edge Computing
+  Against Jamming and Interference.
+\newblock \emph{IEEE Transactions on Communications}, 68(10), 6114-6126.
+\newblock doi:~\detokenize{10.1109/TCOMM.2020.3007742}.
+
+\bibitem[Yao~\&~Jia(2019)]{8664589}
+Yao, F.~\&~Jia, L.
+\newblock (2019).
+\newblock A Collaborative Multi-Agent Reinforcement Learning Anti-Jamming
+  Algorithm in Wireless Networks.
+\newblock \emph{IEEE Wireless Communications Letters}, 8(4), 1024-1027.
+\newblock doi:~\detokenize{10.1109/LWC.2019.2904486}.
+
+\bibitem[Zhang\emph{ et~al.}(2018)Zhang, Xu, Xu, Yang, Luo, Wu~\&~Liu]{8371277}
+Zhang, Y., Xu, Y., Xu, Y., Yang, Y., Luo, Y., Wu, Q.~\&~Liu, X.
+\newblock (2018).
+\newblock A Multi-Leader One-Follower Stackelberg Game Approach for Cooperative
+  Anti-Jamming: No Pains, No Gains.
+\newblock \emph{IEEE Communications Letters}, 22(8), 1680-1683.
+\newblock doi:~\detokenize{10.1109/LCOMM.2018.2843374}.
 
 \bibitem[Zhu\emph{ et~al.}(2021)Zhu, Lin~\&~Zhou]{zhu2021transfer}
 Zhu, Z., Lin, K.~\&~Zhou, J.

@@ -1,52 +1,60 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: /Users/aytacozkan/Desktop/ETSMTL-Reading-list/thesis-adaptive-collaborative-autonomous-wireless-networks/.texpadtmp/mainETS_english.aux
+White space in argument---line 28 of file /Users/aytacozkan/Desktop/ETSMTL-Reading-list/thesis-adaptive-collaborative-autonomous-wireless-networks/.texpadtmp/mainETS_english.aux
+ : \citation{ACM\unskip
+ :                      \penalty \@M  :HasseltetSilver}
+I'm skipping whatever remains of this command
+White space in argument---line 60 of file /Users/aytacozkan/Desktop/ETSMTL-Reading-list/thesis-adaptive-collaborative-autonomous-wireless-networks/.texpadtmp/mainETS_english.aux
+ : \citation{Sutton+Barto\unskip
+ :                               \penalty \@M  :1998}
+I'm skipping whatever remains of this command
 The style file: ../bibETS.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ../biblio_en.bib
 Warning--string name "feb" is undefined
---line 91 of file ../biblio_en.bib
+--line 235 of file ../biblio_en.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty pages in ACM:HasseltetSilver
-You've used 16 entries,
+You've used 29 entries,
             3211 wiz_defined-function locations,
-            725 strings with 8686 characters,
-and the built_in function-call counts, 8395 in all, are:
-= -- 719
-> -- 772
-< -- 1
-+ -- 268
-- -- 252
-* -- 838
-:= -- 1424
-add.period$ -- 71
-call.type$ -- 16
-change.case$ -- 116
-chr.to.int$ -- 16
-cite$ -- 33
-duplicate$ -- 252
-empty$ -- 454
-format.name$ -- 270
-if$ -- 1646
+            803 strings with 11434 characters,
+and the built_in function-call counts, 14659 in all, are:
+= -- 1290
+> -- 1289
+< -- 2
++ -- 449
+- -- 420
+* -- 1455
+:= -- 2483
+add.period$ -- 132
+call.type$ -- 29
+change.case$ -- 198
+chr.to.int$ -- 29
+cite$ -- 59
+duplicate$ -- 468
+empty$ -- 813
+format.name$ -- 453
+if$ -- 2887
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 111
-num.names$ -- 64
-pop$ -- 179
+newline$ -- 198
+num.names$ -- 116
+pop$ -- 295
 preamble$ -- 1
-purify$ -- 116
+purify$ -- 198
 quote$ -- 0
-skip$ -- 248
+skip$ -- 424
 stack$ -- 0
-substring$ -- 32
-swap$ -- 27
+substring$ -- 58
+swap$ -- 52
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 171
+type$ -- 314
 warning$ -- 1
-while$ -- 48
+while$ -- 87
 width$ -- 0
-write$ -- 247
-(There were 2 warnings)
+write$ -- 457
+(There were 2 error messages)

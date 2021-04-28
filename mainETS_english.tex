@@ -100,9 +100,10 @@
 
 %%- Summary -%%
 
-\begin{summary}{French title}{mot-clé1, mot-clé2}
+\begin{summary}{French title}{reinforcement-Learning, transfer-learning,wireless-networks,anti-jamming,multi-agent, collaborative-learning}
 
-\lipsum[1] % Text filling, to have an example of the layout
+
+
 
 \end{summary}
 
@@ -185,7 +186,7 @@ To address these challenges, Transfer Learning (TL) has recently emerged as a hi
 %%- First demo chapter -%%
 \chapter{Research Objectives, Motivation, Research Questions}
 
-\section{Research Objectives}
+\section{Motivation}
 
 The main purpose of this research is to develop efficient, reliable, and relentless mitigation techniques against the jammer, particularly reactive and powerful ones by employing machine learning (ML) and wireless communication technologies. 
 
@@ -198,6 +199,47 @@ Therefore, we can divide our main objective into three subsections and each of t
 We assume in the wireless ad-hoc network, there are two communication node (CN) and one reactive jammer. Also CN1 and CN2 has data connection, which means they can transmit the data to each other. In addition, the ad-hoc network is multi-channel. Constraints, respectively CN's power storage (limit), channel bandwidth, and installed CPU or GPU power on the CN. 
 
 \subsection{Objectives}
+
+\begin{figure}
+\centering
+\scalebox{1.0}{ 
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,271); %set diagram left start at 0, and has height of 271
+
+%Rounded Rect [id:dp8149862988479615] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][fill={rgb, 255:red, 255; green, 255; blue, 255 }  ,fill opacity=1 ] (240,50.5) .. controls (240,33.66) and (253.66,20) .. (270.5,20) -- (497.99,20) .. controls (514.84,20) and (528.49,33.66) .. (528.49,50.5) -- (528.49,142.01) .. controls (528.49,158.86) and (514.84,172.52) .. (497.99,172.52) -- (270.5,172.52) .. controls (253.66,172.52) and (240,158.86) .. (240,142.01) -- cycle ;
+%Rounded Rect [id:dp22268909078842092] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][fill={rgb, 255:red, 255; green, 255; blue, 255 }  ,fill opacity=1 ] (264.5,72.01) .. controls (264.5,55.16) and (278.16,41.5) .. (295.01,41.5) -- (522.49,41.5) .. controls (539.34,41.5) and (553,55.16) .. (553,72.01) -- (553,163.52) .. controls (553,180.36) and (539.34,194.02) .. (522.49,194.02) -- (295.01,194.02) .. controls (278.16,194.02) and (264.5,180.36) .. (264.5,163.52) -- cycle ;
+%Rounded Rect [id:dp5817415105659758] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][fill={rgb, 255:red, 255; green, 255; blue, 255 }  ,fill opacity=1 ] (294,108.85) .. controls (294,90.16) and (309.16,75) .. (327.85,75) -- (563.92,75) .. controls (582.61,75) and (597.77,90.16) .. (597.77,108.85) -- (597.77,210.42) .. controls (597.77,229.12) and (582.61,244.27) .. (563.92,244.27) -- (327.85,244.27) .. controls (309.16,244.27) and (294,229.12) .. (294,210.42) -- cycle ;
+%Shape: Circle [id:dp1565825287408389] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][dash pattern={on 0.84pt off 2.51pt}] (409.9,165.21) .. controls (409.9,125.28) and (442.27,92.91) .. (482.2,92.91) .. controls (522.12,92.91) and (554.49,125.28) .. (554.49,165.21) .. controls (554.49,205.14) and (522.12,237.5) .. (482.2,237.5) .. controls (442.27,237.5) and (409.9,205.14) .. (409.9,165.21) -- cycle ;
+%Shape: Circle [id:dp7239869949598301] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][dash pattern={on 0.84pt off 2.51pt}] (337.61,165.21) .. controls (337.61,125.28) and (369.97,92.91) .. (409.9,92.91) .. controls (449.83,92.91) and (482.2,125.28) .. (482.2,165.21) .. controls (482.2,205.14) and (449.83,237.5) .. (409.9,237.5) .. controls (369.97,237.5) and (337.61,205.14) .. (337.61,165.21) -- cycle ;
+%Shape: Circle [id:dp6631498600009147] 
+\draw  [color={rgb, 255:red, 74; green, 74; blue, 74 }  ,draw opacity=1 ][dash pattern={on 4.5pt off 4.5pt}] (370.32,168.21) .. controls (370.32,144.14) and (389.83,124.62) .. (413.9,124.62) .. controls (437.97,124.62) and (457.49,144.14) .. (457.49,168.21) .. controls (457.49,192.28) and (437.97,211.79) .. (413.9,211.79) .. controls (389.83,211.79) and (370.32,192.28) .. (370.32,168.21) -- cycle ;
+%Shape: Circle [id:dp038787615250740703] 
+\draw  [color={rgb, 255:red, 74; green, 74; blue, 74 }  ,draw opacity=1 ][dash pattern={on 4.5pt off 4.5pt}] (434.61,168.21) .. controls (434.61,144.14) and (454.13,124.62) .. (478.2,124.62) .. controls (502.27,124.62) and (521.78,144.14) .. (521.78,168.21) .. controls (521.78,192.28) and (502.27,211.79) .. (478.2,211.79) .. controls (454.13,211.79) and (434.61,192.28) .. (434.61,168.21) -- cycle ;
+
+% Text Node
+\draw (260.76,22) node [anchor=north west][inner sep=0.75pt]  [font=\small,color={rgb, 255:red, 0; green, 0; blue, 0 }  ,opacity=1 ] [align=left] {Radar Jamming};
+% Text Node
+\draw (288.76,46) node [anchor=north west][inner sep=0.75pt]  [font=\small,color={rgb, 255:red, 0; green, 0; blue, 0 }  ,opacity=1 ] [align=left] {Radio communication Jamming};
+% Text Node
+\draw (317.76,76) node [anchor=north west][inner sep=0.75pt]  [font=\small,color={rgb, 255:red, 0; green, 0; blue, 0 }  ,opacity=1 ] [align=left] {Communications Jamming};
+% Text Node
+\draw (373.25,102.26) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\footnotesize \textcolor[rgb]{0,0,0}{\underline{Reactive}}}};
+% Text Node
+\draw (472.25,102.26) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\footnotesize \textcolor[rgb]{0,0,0}{\underline{ProtocolAware}}}};
+% Text Node
+\draw (387.25,133.26) node [anchor=north west][inner sep=0.75pt]  [font=\small] [align=left] {\textcolor[rgb]{0.25,0.46,0.02}{{\small \textbf{Learning}}}};
+% Text Node
+\draw (460.25,134.26) node [anchor=north west][inner sep=0.75pt]  [font=\small,color={rgb, 255:red, 208; green, 2; blue, 27 }  ,opacity=1 ] [align=left] {\textcolor[rgb]{0.82,0.01,0.11}{{\small \textbf{Spofing}}}};
+\end{tikzpicture}
+}
+\caption{Key capabilities of a jammer and how they relate.} \label{fig:Jammers}
+\end{figure}
 
 \begin{itemize}
  \item {In the infinite time space, we are going to build a Machine Learning model which will take as input frequencies by sensing from the wireless network, and try to predict the jammer next action (channel estimation), which literally means that try to determine the next communication channel will jam. And it will allow us to determine the jamming activity pattern in the ad-hoc network, and by analyzing these patterns we are going to concrete  mitigation strategies. So, related research will propose novel techniques to answer the question below,
@@ -216,6 +258,26 @@ We assume in the wireless ad-hoc network, there are two communication node (CN) 
 
 
 \chapter{Literature Review}
+
+Numerous anti-jamming methods have been proposed in the literature, ranging from frequency hopping \cite{6117758} \cite{8567751} methods that employ techniques such as honeypots to obtain the jammer policy or to harvest the jamming energy \cite{Bhunia2018CRHoneynetAC} \cite{9149223}. Frequency hopping methods continuously switch the carrier frequency between different bands and can be performed using strategies such as chaotic frequency hopping.
+
+The work in \cite{8664589} proposes a collaborative anti-jamming algorithm (CMAA) in which users collaborate with each other in terms of frequency channel selection in order to mitigate the jammer's effects. 
+
+In \cite{9149223}, the authors propose an spectrum sensing based anti-jamming method where legitimate users mitigate the jamming effects by enhancing their awareness about the jammed channels.
+
+In \cite{8761848}, the authors employ a deep Q-learning learning (DQL) based anti-jamming method to mitigate the effects of a powerful Markov jammer. The work in \cite{Xiao2018ReinforcementLN} proposes a deep reinforcement learning (RL) based anti-jamming technique against a smart jammer in a non- orthogonal multiple access system. In \cite{8314744}, the authors employ deep RL (DRL) to secure the communication between a transmitter and a receiver against multi-jammers. 
+
+
+The work in \cite{Slimeni2018AMQ} proposes a modified Q-learning technique, where all the Q-values of the Q-table are updated at each iteration, to mitigate the effects of a sweeping jammer. A DRL based method to obtain the optimal task offloading policy under jamming attacks in the context of multi-radio access is pro-posed in \cite{9136780}. Authors in \cite{8792369} propose the idea of harvesting the transmitted power by jammers for data transmission. 
+
+The work \cite{7473910} in introduces a system consisting of two groups of nodes, namely legitimate users and jammers, that compete to dominate the shared spectrum. In this regard, multi-agent Q-learning is employed to discover the optimal actions of the nodes. 
+
+The works in \cite{8371277} develop anti-jamming methods that employ new approaches to deceive the jammer using a honeypot or fake transmission. 
+
+In summary, anti-jamming in the practical case of partially observable environment against advanced jammers is an understudied topic in the open technical literature. Thus, in this paper, to ensure safe communication channels for the legitimate users and avoid channel switching, an autonomous anti-jamming mechanism is proposed by deceiving reactive jammers in partially observable environments, which is applicable to both multi user and single user scenarios. Moreover, we consider the problem of selecting the optimal channel that can be used to deceive the jammer from several available channels.
+
+
+
 
 
 \chapter{Proposed methodologies}
@@ -297,15 +359,21 @@ In the first category, an agent first needs to learn a value function, e.g., the
 
 \section{Problem Statement}
 
+
+
+
 \begin{table}[!h]
-        \centering        
+        \centering
+        
+        \parbox{0.65\textwidth}{\caption{Problem notation table}\label{tab:testAp}}
+        
 \begin{tabular}{|p{0.50\textwidth}|p{0.50\textwidth}|}
 \hline 
  Notation & Description \\
 \hline 
- $\displaystyle P_{s}( k)$ & Transmit power of the sender  \\
+ $\displaystyle P1$ & Transmit power of the sender communication node \\
 \hline 
- $\displaystyle P^{l}_{J}( k)$ & Jamming power of the $\displaystyle lth$ jammer \\
+ $\displaystyle P$2 & Jamming power of the $\displaystyle lth$ jammer \\
 \hline 
  R & number of \ transmit power levels \\
 \hline 
@@ -315,40 +383,487 @@ In the first category, an agent first needs to learn a value function, e.g., the
 \hline 
  N  & number of channels \\
 \hline 
- $\displaystyle x^{( k)}$ & channel chosen by the sender \\
+ $\displaystyle x^{( k)}$ & channel chosen by the sender communication node \\
 \hline 
- $\displaystyle y^{( k)}_{l}$ & channel choosen by the $\displaystyle lth$ jammer \\
+ $\displaystyle y_{l}^{( k)}$ & channel chosen by the $\displaystyle lth$ jammer \\
 \hline 
- $\displaystyle h_{s}$ & channel power gain of the sender \\
+ $\displaystyle h_{s}$ & channel power gain of the sender communication node \\
 \hline 
  $\displaystyle h_{l}$ & channel power gain of the $\displaystyle lth\ $ jammer \\
+\hline 
+ $\displaystyle \gamma $ & discount factor \\
+\hline 
+ $\displaystyle \pi $ & policy of sender communication node \\
+\hline 
+ $\displaystyle Q^{source}\left( s^{( k)} ,a^{( k)}\right)$ & Q-function of source domain in time slot k \\
+\hline 
+ $\displaystyle Q^{target}\left( s^{( k)} ,a^{( k)}\right)$ & Q-function of target domain in time slot k \\
+\hline 
+ CN & The number of communication nodes. \\
  \hline
-\end{tabular}        
-\end{table}
+\end{tabular}
+        
+ \end{table}
+ 
+ 
+ \begin{figure}
+ \centering 
+	\scalebox{1.0}{
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
 
-We consider a wireless communication scenario where a sender such as a wireless device \ transmits \ data to the receiver at time slot $\displaystyle k$ with a transmit power $\displaystyle P_{s}( k)$. while there are L Jammers who can launch jamming attacks by injecting meaningless interference signals denoted as $\displaystyle P^{l}_{j}( k) \ \in \ \left\{P^{1}_{j}( k) ,P^{2}_{j}( k) ,...,P^{L}_{j}( k)\right\} .$
+%Straight Lines [id:da7206867047162631] 
+\draw    (99.38,232.75) -- (99.38,74.75) ;
+\draw [shift={(99.38,72.75)}, rotate = 450] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da49226471285143525] 
+\draw    (99.38,232.75) -- (325.38,232.5) ;
+\draw [shift={(327.38,232.5)}, rotate = 539.94] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Shape: Grid [id:dp8574182637596066] 
+\draw  [draw opacity=0] (100,103) -- (320.38,103) -- (320.38,144.5) -- (100,144.5) -- cycle ; \draw   (100,103) -- (100,144.5)(120,103) -- (120,144.5)(140,103) -- (140,144.5)(160,103) -- (160,144.5)(180,103) -- (180,144.5)(200,103) -- (200,144.5)(220,103) -- (220,144.5)(240,103) -- (240,144.5)(260,103) -- (260,144.5)(280,103) -- (280,144.5)(300,103) -- (300,144.5)(320,103) -- (320,144.5) ; \draw   (100,103) -- (320.38,103)(100,123) -- (320.38,123)(100,143) -- (320.38,143) ; \draw    ;
+%Shape: Grid [id:dp40455720391260397] 
+\draw  [draw opacity=0] (99.38,192.75) -- (319.77,192.75) -- (319.77,234.25) -- (99.38,234.25) -- cycle ; \draw   (99.38,192.75) -- (99.38,234.25)(119.38,192.75) -- (119.38,234.25)(139.38,192.75) -- (139.38,234.25)(159.38,192.75) -- (159.38,234.25)(179.38,192.75) -- (179.38,234.25)(199.38,192.75) -- (199.38,234.25)(219.38,192.75) -- (219.38,234.25)(239.38,192.75) -- (239.38,234.25)(259.38,192.75) -- (259.38,234.25)(279.38,192.75) -- (279.38,234.25)(299.38,192.75) -- (299.38,234.25)(319.38,192.75) -- (319.38,234.25) ; \draw   (99.38,192.75) -- (319.77,192.75)(99.38,212.75) -- (319.77,212.75)(99.38,232.75) -- (319.77,232.75) ; \draw    ;
+%Shape: Rectangle [id:dp3287841947190009] 
+\draw  [fill={rgb, 255:red, 126; green, 211; blue, 33 }  ,fill opacity=1 ] (220,103) -- (240,103) -- (240,123) -- (220,123) -- cycle ;
+%Straight Lines [id:da05175018907140938] 
+\draw    (61.25,141.04) -- (61.25,83.04) ;
+\draw [shift={(61.25,81.04)}, rotate = 450] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da7355644094422529] 
+\draw    (59.25,174.04) -- (59.25,232.04) ;
+\draw [shift={(59.25,234.04)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
 
-Each $\displaystyle P^{l}_{j}( k)$ has $\displaystyle I$ different power levels. 
+% Text Node
+\draw (97,49) node [anchor=north west][inner sep=0.75pt]   [align=left] {frequency};
+% Text Node
+\draw (331,222) node [anchor=north west][inner sep=0.75pt]   [align=left] {time};
+% Text Node
+\draw (96.62,111.39) node   [align=left] {\begin{minipage}[lt]{21.247343750000002pt}\setlength\topsep{0pt}
+$\displaystyle f_{i}$
+\end{minipage}};
+% Text Node
+\draw (230.75,96.27) node   [align=left] {\begin{minipage}[lt]{12.920000000000002pt}\setlength\topsep{0pt}
+$\displaystyle T$
+\end{minipage}};
+% Text Node
+\draw (332.75,113.02) node   [align=left] {\begin{minipage}[lt]{11.56pt}\setlength\topsep{0pt}
+$\displaystyle B_{i}$
+\end{minipage}};
+% Text Node
+\draw (62,167) node   [align=left] {\begin{minipage}[lt]{68pt}\setlength\topsep{0pt}
+N Channels
+\end{minipage}};
+% Text Node
+\draw (216.75,257.02) node   [align=left] {\begin{minipage}[lt]{11.56pt}\setlength\topsep{0pt}
+$\displaystyle t$
+\end{minipage}};
+\end{tikzpicture}
+}
+\caption{Dynamic Spectrum Access (DSA).} \label{fig:DSA}
+\end{figure}
+ 
+ We consider a wireless communication scenario where a sender such as a wireless device \ transmits \ data to the receiver at time slot $\displaystyle k$ with a transmit power $\displaystyle P1_{k}$. while there are L Jammers who can launch jamming attacks by injecting meaningless interference signals denoted as $\displaystyle P2_{k}^{l} \ \in \ \left\{P2_{k}^{1} ,P2_{k}^{2} ,...,P2_{k}^{L}\right\} .$
 
-In our model, each jammer is assumed to attack only one channel, At time slot $\displaystyle k,$the sender can choose one of N selectable frequency channels for transmitting denoted by $\displaystyle x^{( k)} .$ Meanwhile, $\displaystyle L$ jammers may select their frequency channels (denoted as $\displaystyle \left\{y^{( k)}_{1} ,\ y^{( k)}_{2} ,\dotsc ,y^{( k)}_{L}\right\}$) for jamming. 
+Each $\displaystyle P2_{k}^{l}$ has $\displaystyle I$ different power levels. 
 
-$\displaystyle h_{s}$ and $\displaystyle h_{l}$ denote the channel power gains from the sender and the $\displaystyle lth$ jammer to the receiver respectively. 
 
-To resist the jamming attack, the sender needs to choose an unblocked channel $\displaystyle x^{( k)}$ and an appropriate transmit power. In general, variable transmit power model is shown to be superior to the constant transmit power one under the constraint of the same average power. \ After the receiver gets the signal at time slot k, the $\displaystyle SINR( k)$ is calculated by (1) and returned to the sender through the feedback channel. 
 
+ The average power $\displaystyle P_{avg}$ should be less than the peak jamming power $\displaystyle P_{max}$. 
+
+
+
+$\displaystyle \ \ P_{avg} \ \leq \ P_{max}$ 
+
+
+
+In our model, each jammer is assumed to attack only one channel, At time slot $\displaystyle k,$the sender can choose one of N selectable frequency channels for transmitting denoted by $\displaystyle x^{( k)} .$ Meanwhile, $\displaystyle L$ jammers may select their frequency channels (denoted as $\displaystyle \left\{y_{1}^{( k)} ,\ y_{2}^{( k)} ,\dotsc ,y_{L}^{( k)}\right\}$) for jamming. 
+  
+ $\displaystyle h_{s}$ and $\displaystyle h_{l}$ denote the channel power gains from the sender and the $\displaystyle lth$ jammer to the receiver respectively. 
+
+If \ we denote $\displaystyle \mathbb{x} \ \triangleq \ ( x_{0,} \dotsc ,x_{n} ,\dotsc ,x_{N})$ as a probability vector for being jammed for channels,
+
+
+In order to resist jamming attack, the sender needs to choose an unblocked channel $\displaystyle x^{( k)}$ and an appropriate transmit power. In general, variable transmit power model is shown to be superior to be the constant transmit power one under the constraint of the same average power. \ After the receiver gets the signal at time slot k, the $\displaystyle SINR( k)$ is calculated by (1) and returned to the sender through the feedback channel. 
+ 
 \begin{equation}
-SINR( k) \ =\ \frac{P_{s}( k) h_{s}}{\beta +\sum ^{L}_{l=1} P^{l}_{J}( k) h_{l} f\left( x^{( k)} \ =\ y^{( k)}_{l}\right)},
+SINR( k) \ =\ \frac{P1h_{s}}{\beta +\sum _{l=1}^{L} P2h_{l} f\left( x^{( k)} \ =\ y_{l}^{( k)}\right)} ,
+\end{equation}
+ 
+ where $\displaystyle \beta $ is the receiver noise power, $\displaystyle P2_{k}^{l}$ denotes the jamming power chosen by the $\displaystyle lth$ jammer and $\displaystyle f( \xi )$ is an indicator function that equals 1 if $\displaystyle \xi $ is true and 0 otherwise. If the jammer is completely blocked by the jammers at time slot k, the sender needs to re-transmit the signal \ This will consume extra energy denoted as $\displaystyle C_{m} .$
+
+It is reasonable that the channel is considered to be blocked if the jamming power takes the maximum value $\displaystyle P2_{k}^{L} .$ In order to make a tradeoff between the energy saving and the communication performance, we define the utility $\displaystyle u_{s}^{( k)}$ of the sender by: 
+ 
+\begin{equation}
+u_{s}^{( k)} \ =\ SINR( k) \ -\ C_{m} f\left( P2_{k} \ =\ P2_{k}^{L}\right) f\left( x^{( k)} \ =\ y_{l}^{( k)}\right) \ -\ \frac{C_{s} P1_{k}}{P_{s}^{max}}
 \end{equation}
 
- where $\displaystyle \beta $ is the receiver noise power, $\displaystyle P^{l}_{J}( k)$ denotes the jamming power chosen by the $\displaystyle lth$ jammer and $\displaystyle f( \xi )$ is an indicator function that equals 1 if $\displaystyle \xi $ is true and 0 otherwise. If the jammer is completely blocked by the jammer at time slot k, the sender needs to retransmit the signal \ This will consume extra energy denoted as $\displaystyle C_{m} .$
+where $\displaystyle C_{S}$ and $\displaystyle P_{S}^{\max}$ denote the unit transmission cost and the maximum transmit power respectively. 
 
-It is reasonable that the channel is considered blocked if the jamming power takes the maximum value $\displaystyle P^{L}_{J}( k) .$ In order to make a tradeoff between the energy saving and the communication performance, we define the utility $\displaystyle u^{( k)}_{s}$ of the sender by: 
+
+
+\begin{figure}
+\centering
+
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,250); %set diagram left start at 0, and has height of 250
+
+%Shape: Circle [id:dp07282400001791256] 
+\draw  [color={rgb, 255:red, 245; green, 166; blue, 35 }  ,draw opacity=1 ][fill={rgb, 255:red, 245; green, 166; blue, 35 }  ,fill opacity=1 ] (195,91.72) .. controls (195,76.41) and (207.41,64) .. (222.72,64) .. controls (238.04,64) and (250.45,76.41) .. (250.45,91.72) .. controls (250.45,107.04) and (238.04,119.45) .. (222.72,119.45) .. controls (207.41,119.45) and (195,107.04) .. (195,91.72) -- cycle ;
+%Shape: Circle [id:dp8810702232782299] 
+\draw  [color={rgb, 255:red, 245; green, 166; blue, 35 }  ,draw opacity=1 ][fill={rgb, 255:red, 245; green, 166; blue, 35 }  ,fill opacity=1 ] (433,89.72) .. controls (433,74.41) and (445.41,62) .. (460.72,62) .. controls (476.04,62) and (488.45,74.41) .. (488.45,89.72) .. controls (488.45,105.04) and (476.04,117.45) .. (460.72,117.45) .. controls (445.41,117.45) and (433,105.04) .. (433,89.72) -- cycle ;
+%Straight Lines [id:da23051797447088207] 
+\draw    (223.45,22.09) -- (222.76,62) ;
+\draw [shift={(222.72,64)}, rotate = 270.99] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da07391064886526433] 
+\draw    (223.45,22.09) -- (461.45,23.09) ;
+%Straight Lines [id:da6338340269715368] 
+\draw    (461.45,23.09) -- (460.72,62) ;
+%Straight Lines [id:da8445138977081625] 
+\draw    (236.45,40.09) -- (235.72,68) ;
+%Straight Lines [id:da1164538835183544] 
+\draw    (236.45,40.09) -- (446.45,40.09) ;
+%Straight Lines [id:da8582506194324306] 
+\draw    (446.45,40.09) -- (446.73,64.59) ;
+\draw [shift={(446.75,66.59)}, rotate = 269.34000000000003] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-4.9) .. controls (6.95,-2.3) and (3.31,-0.67) .. (0,0) .. controls (3.31,0.67) and (6.95,2.3) .. (10.93,4.9)   ;
+%Shape: Rectangle [id:dp742087934688918] 
+\draw   (296,70) -- (386.45,70) -- (386.45,104.79) -- (296,104.79) -- cycle ;
+%Straight Lines [id:da5253467549833815] 
+\draw    (250.45,91.72) -- (293.75,91.92) ;
+\draw [shift={(295.75,91.93)}, rotate = 180.26] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da7112341845701995] 
+\draw    (385.75,89.93) -- (431,89.73) ;
+\draw [shift={(433,89.72)}, rotate = 539.75] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da6866335021417969] 
+\draw    (176,216) -- (266.75,216.91) ;
+\draw [shift={(268.75,216.93)}, rotate = 180.57] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da8169517027726481] 
+\draw    (176,216) -- (177.71,138.93) ;
+\draw [shift={(177.75,136.93)}, rotate = 451.27] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Shape: Rectangle [id:dp22991209794217848] 
+\draw   (194,191) -- (204,191) -- (204,201) -- (194,201) -- cycle ;
+%Shape: Rectangle [id:dp48508778991210133] 
+\draw   (204,181) -- (214,181) -- (214,191) -- (204,191) -- cycle ;
+%Shape: Rectangle [id:dp2315856456550467] 
+\draw   (214,191) -- (224,191) -- (224,201) -- (214,201) -- cycle ;
+%Straight Lines [id:da30711860976564354] 
+\draw    (498,213.46) -- (588.75,214.36) ;
+\draw [shift={(590.75,214.38)}, rotate = 180.57] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da57442826910923] 
+\draw    (498,213.46) -- (499.71,136.38) ;
+\draw [shift={(499.75,134.38)}, rotate = 451.27] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Shape: Rectangle [id:dp9176657458276827] 
+\draw   (516,188.46) -- (526,188.46) -- (526,198.46) -- (516,198.46) -- cycle ;
+%Shape: Rectangle [id:dp09230130084447796] 
+\draw   (526,178.46) -- (536,178.46) -- (536,188.46) -- (526,188.46) -- cycle ;
+%Shape: Rectangle [id:dp8831023123924109] 
+\draw   (536,188.46) -- (546,188.46) -- (546,198.46) -- (536,198.46) -- cycle ;
+%Shape: Circle [id:dp24118789495729098] 
+\draw  [color={rgb, 255:red, 208; green, 2; blue, 27 }  ,draw opacity=1 ][fill={rgb, 255:red, 208; green, 2; blue, 27 }  ,fill opacity=1 ] (318,159.72) .. controls (318,144.41) and (330.41,132) .. (345.72,132) .. controls (361.04,132) and (373.45,144.41) .. (373.45,159.72) .. controls (373.45,175.04) and (361.04,187.45) .. (345.72,187.45) .. controls (330.41,187.45) and (318,175.04) .. (318,159.72) -- cycle ;
+%Straight Lines [id:da048994757699609925] 
+\draw    (345.72,132) -- (345.49,105.97) ;
+\draw [shift={(345.47,103.97)}, rotate = 449.48] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+
+% Text Node
+\draw (200,83) node [anchor=north west][inner sep=0.75pt]  [color={rgb, 255:red, 255; green, 255; blue, 255 }  ,opacity=1 ] [align=left] {Sender};
+% Text Node
+\draw (437,85) node [anchor=north west][inner sep=0.75pt]  [font=\small,color={rgb, 255:red, 255; green, 255; blue, 255 }  ,opacity=1 ] [align=left] {Receiver};
+% Text Node
+\draw (341.22,87.39) node  [font=\footnotesize] [align=left] {\begin{minipage}[lt]{49.29pt}\setlength\topsep{0pt}
+\begin{center}
+Transmission\\channels
+\end{center}
+
+\end{minipage}};
+% Text Node
+\draw (269,201.4) node [anchor=north west][inner sep=0.75pt]    {$N$};
+% Text Node
+\draw (179.75,140.33) node [anchor=north west][inner sep=0.75pt]    {$R$};
+% Text Node
+\draw (178,219) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize] [align=left] {Select data transmission channel};
+% Text Node
+\draw (160.8,221.53) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize,rotate=-269.71] [align=left] {Select transmission power};
+% Text Node
+\draw (591,198.86) node [anchor=north west][inner sep=0.75pt]    {$N$};
+% Text Node
+\draw (501.75,137.78) node [anchor=north west][inner sep=0.75pt]    {$I$};
+% Text Node
+\draw (500,216.46) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize] [align=left] {Select jamming channel};
+% Text Node
+\draw (482.8,218.98) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize,rotate=-269.71] [align=left] {Select jamming power};
+% Text Node
+\draw (321,154) node [anchor=north west][inner sep=0.75pt]  [font=\small,color={rgb, 255:red, 255; green, 255; blue, 255 }  ,opacity=1 ] [align=left] {Jammer};
+% Text Node
+\draw (288.81,77) node [anchor=north west][inner sep=0.75pt]   [align=left] {};
+
+\end{tikzpicture}
+\caption{Anti-jamming wireless communication system}\label{fig:AJWC}
+\end{figure}
+
+$\displaystyle s^{( k)} \ =\ SINR( k-1) ,$ the system state at time slot k, which is the value of SINR at time slot $\displaystyle k-1$.
+
+$\displaystyle a^{( k)} \ =\ \left[ x^{( k)} ,P1_{k}\right]$, represents the action of sender at time slot k, which contains a frequency channel $\displaystyle x^{( k)}$ and a transmit power $\displaystyle P1_{k}$. After the action is performed, the sender receives a reward $\displaystyle u_{s}^{( k)}$.
+
+\textbf{Q-function:}
 
 \begin{equation}
-u^{( k)}_{s} \ =\ SINR( k) \ -\ C_{m} f\left( P^{I}_{J}( k) \ =\ P^{L}_{j}( k)\right) f\left( x^{( k)} \ =\ y^{( k)}_{l}\right) \ -\ \frac{C_{s} P_{s}( k)}{P^{max}_{s}}
+Q\left( s^{( k)} ,a^{( k)}\right) \ =\ \mathbb{E}\left[ u_{s}^{( k)} \ +\ \gamma \ \underset{a"\ \in A}{\max} Q\left( s^{( k+1)} ,\ a^{'}\right) \ |\ s^{( k)} ,a^{( k)}\right] ,
 \end{equation}
 
-where $\displaystyle C_{S}$ and $\displaystyle P^{\max}_{S}$ denote the unit transmission cost and the maximum transmit power, respectively. 
+Parameters of $\displaystyle \epsilon -greedy$ algorithm: 
+
+$\displaystyle \tau $: represent the probability of performing the previous action $\displaystyle a^{( k-1)}$ directly at time slot k without calculating Q-value.
+
+\begin{equation}
+( \tau -\epsilon ) -greedy\ \Longrightarrow \ \pi \left( a^{( k)} |\ s^{( k)}\right) \ =\ \begin{cases}
+a^{( k-1)} & with\ probability\ of\ \tau \\
+a_{\tau } & with\ probability\ of\ \epsilon \\
+\underset{a^{'} \ \in \ A}{\arg\max \ } Q\left( s^{( k)} ,a^{'}\right) & with\ probability\ of\ ( 1-\tau -\epsilon )
+\end{cases}
+\end{equation}
+
+
+\begin{equation}
+\overline{u}_{s}^{( k-1)} \ \ =\ \frac{1}{T}\sum\nolimits _{i=1}^{T} u_{s}^{( k-i)}
+\end{equation}
+
+(3.7) : For the valuable action judgment, we compute the average utility of T previous time slots as a threshold.
+
+
+\begin{figure}
+
+\centering
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,413); %set diagram left start at 0, and has height of 413
+
+%Rounded Rect [id:dp037038531697400234] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][line width=0.75]  (126.74,46.32) .. controls (126.74,43.93) and (128.68,42) .. (131.06,42) -- (637.68,42) .. controls (640.07,42) and (642,43.93) .. (642,46.32) -- (642,315.9) .. controls (642,318.28) and (640.07,320.22) .. (637.68,320.22) -- (131.06,320.22) .. controls (128.68,320.22) and (126.74,318.28) .. (126.74,315.9) -- cycle ;
+%Shape: Rectangle [id:dp9112105868230191] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ] (169.19,118) -- (246.66,118) -- (246.66,158) -- (169.19,158) -- cycle ;
+%Shape: Rectangle [id:dp41556728500124507] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][fill={rgb, 255:red, 255; green, 255; blue, 255 }  ,fill opacity=1 ] (20.19,169) -- (97.66,169) -- (97.66,209) -- (20.19,209) -- cycle ;
+%Straight Lines [id:da31075089348460994] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (96.74,189.22) -- (143.28,189.11) ;
+%Straight Lines [id:da9289566830128999] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (142.28,138.11) -- (143.28,189.11) ;
+%Straight Lines [id:da14211003468762828] 
+\draw  [dash pattern={on 0.84pt off 2.51pt}]  (142.28,138.11) -- (164.28,138.11) ;
+\draw [shift={(167.28,138.11)}, rotate = 180] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (10.72,-5.15) -- (0,0) -- (10.72,5.15) -- (7.12,0) -- cycle    ;
+%Shape: Rectangle [id:dp8432056909787771] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][dash pattern={on 4.5pt off 4.5pt}] (293.69,88) -- (387.66,88) -- (387.66,136.22) -- (293.69,136.22) -- cycle ;
+%Shape: Rectangle [id:dp4838012428553906] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][fill={rgb, 255:red, 255; green, 255; blue, 255 }  ,fill opacity=1 ] (322.19,107) -- (399.66,107) -- (399.66,155.22) -- (322.19,155.22) -- cycle ;
+%Shape: Rectangle [id:dp04392721967580826] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][dash pattern={on 4.5pt off 4.5pt}] (291.69,207) -- (385.66,207) -- (385.66,255.22) -- (291.69,255.22) -- cycle ;
+%Shape: Rectangle [id:dp08474048927820488] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][fill={rgb, 255:red, 255; green, 255; blue, 255 }  ,fill opacity=1 ] (320.19,226) -- (397.66,226) -- (397.66,274.22) -- (320.19,274.22) -- cycle ;
+%Shape: Rectangle [id:dp8819293523060772] 
+\draw   (348.95,131.11) -- (360.92,131.11) -- (360.92,141.11) -- (348.95,141.11) -- cycle ;
+%Straight Lines [id:da9436173005905717] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (247.74,147.22) -- (320.22,146.81) ;
+\draw [shift={(323.22,146.79)}, rotate = 539.6800000000001] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (10.72,-5.15) -- (0,0) -- (10.72,5.15) -- (7.12,0) -- cycle    ;
+%Straight Lines [id:da22843514245680185] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (277.28,117.11) -- (276.78,239.79) ;
+%Straight Lines [id:da3208905432721849] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (277.28,117.11) -- (295.78,116.83) ;
+\draw [shift={(298.78,116.79)}, rotate = 539.15] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (10.72,-5.15) -- (0,0) -- (10.72,5.15) -- (7.12,0) -- cycle    ;
+%Straight Lines [id:da8748720532603396] 
+\draw  [dash pattern={on 0.84pt off 2.51pt}]  (276.78,239.79) -- (292.78,239.79) ;
+\draw [shift={(295.78,239.79)}, rotate = 180] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (10.72,-5.15) -- (0,0) -- (10.72,5.15) -- (7.12,0) -- cycle    ;
+%Shape: Rectangle [id:dp4584883217062876] 
+\draw   (346.95,250.11) -- (358.92,250.11) -- (358.92,260.11) -- (346.95,260.11) -- cycle ;
+%Shape: Rectangle [id:dp02643814237674791] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][fill={rgb, 255:red, 255; green, 255; blue, 255 }  ,fill opacity=1 ] (430.19,96) -- (507.66,96) -- (507.66,144.22) -- (430.19,144.22) -- cycle ;
+%Shape: Rectangle [id:dp5045809733341071] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][fill={rgb, 255:red, 255; green, 255; blue, 255 }  ,fill opacity=1 ] (436.19,102) -- (513.66,102) -- (513.66,150.22) -- (436.19,150.22) -- cycle ;
+%Shape: Rectangle [id:dp34948397730346614] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][fill={rgb, 255:red, 255; green, 255; blue, 255 }  ,fill opacity=1 ] (443.19,108) -- (520.66,108) -- (520.66,156.22) -- (443.19,156.22) -- cycle ;
+%Shape: Rectangle [id:dp16704931791016153] 
+\draw   (471.78,122) -- (481.92,122) -- (481.92,132.11) -- (471.78,132.11) -- cycle ;
+%Shape: Rectangle [id:dp7662910853092366] 
+\draw   (481.92,132.11) -- (492.07,132.11) -- (492.07,142.22) -- (481.92,142.22) -- cycle ;
+%Shape: Rectangle [id:dp508539462381391] 
+\draw   (492.07,142.22) -- (502.21,142.22) -- (502.21,152.32) -- (492.07,152.32) -- cycle ;
+%Shape: Rectangle [id:dp7581611272622251] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][fill={rgb, 255:red, 255; green, 255; blue, 255 }  ,fill opacity=1 ] (432.19,207) -- (509.66,207) -- (509.66,255.22) -- (432.19,255.22) -- cycle ;
+%Shape: Rectangle [id:dp15409364731756714] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][fill={rgb, 255:red, 255; green, 255; blue, 255 }  ,fill opacity=1 ] (438.19,213) -- (515.66,213) -- (515.66,261.22) -- (438.19,261.22) -- cycle ;
+%Shape: Rectangle [id:dp7087685242693063] 
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ][fill={rgb, 255:red, 255; green, 255; blue, 255 }  ,fill opacity=1 ] (445.19,219) -- (522.66,219) -- (522.66,267.22) -- (445.19,267.22) -- cycle ;
+%Shape: Rectangle [id:dp979918051905466] 
+\draw   (473.78,233) -- (483.92,233) -- (483.92,243.11) -- (473.78,243.11) -- cycle ;
+%Shape: Rectangle [id:dp5914386328123566] 
+\draw   (483.92,243.11) -- (494.07,243.11) -- (494.07,253.22) -- (483.92,253.22) -- cycle ;
+%Shape: Rectangle [id:dp9706407290808747] 
+\draw   (494.07,253.22) -- (504.21,253.22) -- (504.21,263.32) -- (494.07,263.32) -- cycle ;
+%Straight Lines [id:da7393749883378757] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (348.95,131.11) -- (471.78,122) ;
+%Straight Lines [id:da40988505368090555] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (360.92,141.11) -- (483.76,132) ;
+%Straight Lines [id:da396651554718344] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (358.92,250.11) -- (473.78,233) ;
+%Straight Lines [id:da3634509196932123] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (358.92,260.22) -- (473.78,243.11) ;
+%Shape: Rectangle [id:dp7284256745819491] 
+\draw   (556.4,156) -- (626.4,156) -- (626.4,205.42) -- (556.4,205.42) -- cycle ;
+%Shape: Rectangle [id:dp04905544181336596] 
+\draw   (579.07,188.22) -- (589.21,188.22) -- (589.21,198.32) -- (579.07,198.32) -- cycle ;
+%Straight Lines [id:da23637943461666389] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (492.07,132.11) -- (589.21,188.22) ;
+%Straight Lines [id:da7471801026142995] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (492.07,152.32) -- (579.07,188.22) ;
+%Straight Lines [id:da43005278974589234] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (483.92,233) -- (579.07,198.32) ;
+%Straight Lines [id:da5027402928007583] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (504.21,263.32) -- (589.21,198.32) ;
+%Straight Lines [id:da5279990177924845] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (260.28,65.11) -- (259.78,187.79) ;
+%Straight Lines [id:da8561019614280772] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (259.59,65.22) -- (589.71,65.54) ;
+%Straight Lines [id:da31744004531817915] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (589.71,65.54) -- (590.4,156.42) ;
+%Straight Lines [id:da3165560078922094] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (259.78,187.79) -- (277.4,187.48) ;
+\draw [shift={(280.4,187.42)}, rotate = 538.98] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (10.72,-5.15) -- (0,0) -- (10.72,5.15) -- (7.12,0) -- cycle    ;
+%Straight Lines [id:da7721829350838407] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (410.14,29.2) -- (410.36,124.55) ;
+\draw [shift={(410.37,126.55)}, rotate = 269.87] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-4.9) .. controls (6.95,-2.3) and (3.31,-0.67) .. (0,0) .. controls (3.31,0.67) and (6.95,2.3) .. (10.93,4.9)   ;
+%Straight Lines [id:da7341588320312835] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (383.53,353.89) -- (383.53,372.89) ;
+\draw [shift={(383.53,375.89)}, rotate = 270] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (10.72,-5.15) -- (0,0) -- (10.72,5.15) -- (7.12,0) -- cycle    ;
+%Straight Lines [id:da6460991037007136] 
+\draw    (592.53,206) -- (589.53,339.89) ;
+%Straight Lines [id:da1432138213901859] 
+\draw    (589.53,339.89) -- (424.53,340.87) ;
+\draw [shift={(421.53,340.89)}, rotate = 359.65999999999997] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (10.72,-5.15) -- (0,0) -- (10.72,5.15) -- (7.12,0) -- cycle    ;
+%Straight Lines [id:da06654670219633685] 
+\draw    (59.53,209) -- (58.28,390.89) ;
+%Straight Lines [id:da769957476106125] 
+\draw    (57.28,341.89) -- (342.28,339.91) ;
+\draw [shift={(345.28,339.89)}, rotate = 539.6] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (10.72,-5.15) -- (0,0) -- (10.72,5.15) -- (7.12,0) -- cycle    ;
+%Straight Lines [id:da38456746776594897] 
+\draw    (58.28,390.89) -- (356.28,388.91) ;
+\draw [shift={(359.28,388.89)}, rotate = 539.62] [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.08]  [draw opacity=0] (10.72,-5.15) -- (0,0) -- (10.72,5.15) -- (7.12,0) -- cycle    ;
+
+% Text Node
+\draw (171.19,121) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\small \textcolor[rgb]{0,0,0}{Observation}}};
+% Text Node
+\draw (193.66,139.4) node [anchor=north west][inner sep=0.75pt]  [font=\small]  {$\textcolor[rgb]{0,0,0}{O}\textcolor[rgb]{0,0,0}{(}\textcolor[rgb]{0,0,0}{s}\textcolor[rgb]{0,0,0}{)}$};
+% Text Node
+\draw (22.19,172) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\small \textcolor[rgb]{0,0,0}{Observation}}};
+% Text Node
+\draw (44.66,192.4) node [anchor=north west][inner sep=0.75pt]  [font=\small]  {$\textcolor[rgb]{0,0,0}{O}\textcolor[rgb]{0,0,0}{(}\textcolor[rgb]{0,0,0}{s}\textcolor[rgb]{0,0,0}{)}$};
+% Text Node
+\draw (324.19,110.4) node [anchor=north west][inner sep=0.75pt]  [font=\footnotesize]  {$Reward\ R_{t}$};
+% Text Node
+\draw (295.69,91) node [anchor=north west][inner sep=0.75pt]  [font=\footnotesize] [align=left] {previous value V};
+% Text Node
+\draw (322.19,229.4) node [anchor=north west][inner sep=0.75pt]  [font=\footnotesize]  {$Reward\ R_{t}^{'}$};
+% Text Node
+\draw (293.69,210) node [anchor=north west][inner sep=0.75pt]  [font=\footnotesize] [align=left] {previous value V};
+% Text Node
+\draw (485.09,111.4) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$Q( s,a)$};
+% Text Node
+\draw (446.19,218.4) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$Q\left( s^{'} ,a^{'}\right)$};
+% Text Node
+\draw (400.37,137.95) node [anchor=north west][inner sep=0.75pt]    {$P_{t}$};
+% Text Node
+\draw (402.37,252.95) node [anchor=north west][inner sep=0.75pt]    {$P_{t}^{'}$};
+% Text Node
+\draw (564.4,158) node [anchor=north west][inner sep=0.75pt]  [font=\footnotesize] [align=left] {new value};
+% Text Node
+\draw (586.4,173.4) node [anchor=north west][inner sep=0.75pt]  [font=\scriptsize]  {$V$};
+% Text Node
+\draw    (536.65,67) -- (592.65,67) -- (592.65,88) -- (536.65,88) -- cycle  ;
+\draw (539.65,71) node [anchor=north west][inner sep=0.75pt]  [font=\footnotesize,color={rgb, 255:red, 0; green, 0; blue, 0 }  ,opacity=1 ] [align=left] {\textbf{Part III}};
+% Text Node
+\draw    (384.14,5) -- (449.14,5) -- (449.14,28) -- (384.14,28) -- cycle  ;
+\draw (387.14,9.4) node [anchor=north west][inner sep=0.75pt]  [font=\small]  {$Q^{pre}( s,a)$};
+% Text Node
+\draw    (325.14,5) -- (378.14,5) -- (378.14,30) -- (325.14,30) -- cycle  ;
+\draw (328.14,9) node [anchor=north west][inner sep=0.75pt]   [align=left] {Part II};
+% Text Node
+\draw (144.78,167.01) node [anchor=north west][inner sep=0.75pt]    {$w_{r}$};
+% Text Node
+\draw    (169.25,163) -- (213.25,163) -- (213.25,184) -- (169.25,184) -- cycle  ;
+\draw (172.25,167) node [anchor=north west][inner sep=0.75pt]  [font=\footnotesize] [align=left] {\textbf{Part I}};
+% Text Node
+\draw (411.14,42.6) node [anchor=north west][inner sep=0.75pt]    {$w_{t}$};
+% Text Node
+\draw    (346.59,328) -- (417.59,328) -- (417.59,353) -- (346.59,353) -- cycle  ;
+\draw (349.59,332) node [anchor=north west][inner sep=0.75pt]   [align=left] {Attention};
+% Text Node
+\draw    (358.53,377) -- (406.53,377) -- (406.53,402) -- (358.53,402) -- cycle  ;
+\draw (361.53,381) node [anchor=north west][inner sep=0.75pt]   [align=left] {Policy};
+\end{tikzpicture}
+\caption{The Framework of TVIN}
+\end{figure}
+
+M is represent the MDP of some communication nodes, where an optimal policy $\displaystyle \pi $ is expected to be learned.
+
+The states, actions, rewards and transitions in M are denoted by;
+\begin{itemize}
+\item $\displaystyle s\ \in \mathcal{\ } S$
+\item $\displaystyle a\ \in \mathcal{A}$
+\item $\displaystyle R( s,a)$
+\item $\displaystyle P\left( s^{'} |s,a\right)$ respectively.
+\end{itemize}
+
+$\displaystyle \phi ( s)$ represent an observation for state s.
+
+$\displaystyle \theta $ denotes all the parameters of the Transfer Value Iteration Networks (TVIN)
+
+R and P are dependent on the observations as follows; 
+\begin{itemize}
+\item $\displaystyle R\ =\ f_{R}( \phi ( s))$
+\item $\displaystyle P\ =\ f_{P}( \phi ( s))$
+\end{itemize}
+
+The functions $\displaystyle f_{R}$ and $\displaystyle f_{P}$ are learned jointly in the policy learning process.
+
+Given a trained MDP in source communication domain (node), we aim to transfer the learned knowledge including the learned reward function and transition function to the target communication domain (node), such that an optimal policy $\displaystyle \pi ( a|\ \phi ( s) ;\theta )$ for the target domain can be learned. 
+
+Given the trained VIN in the source domain, the trained reward function $\displaystyle f_{R}$ is first transferred to produce reward images for the observations s in the target communication domain.
+
+After that the state transition values on the common subset of actions, $\displaystyle f_{P}^{pre}$, is transferred to the target domain with a learnable weight associated with each action to measure the similarity degree between communication domains. And the state transition values on new domain-specific actions, $\displaystyle f_{P}^{new}$, are learned from scratch.
+
+All these state transition values reconstruct a transition function in the target communication domain, which is further used to compute the Q-function in each iteration for the target communication domain.
+
+An attention vector is fed as \ an input to generate target policy $\displaystyle \pi _{T}$. 
+
+\textbf{Transition function transferring:}
+
+To transfer the transition function across domains, we use value iteration by approximating the Bellman-update through a CNN in the target domain. Specifically, the CNN used for comprised of stacked convolution and max-pooling layers.
+
+
+The input to each convolution layer is a 3-dimensional signal X, typically, and image with $\displaystyle l$ channels and $\displaystyle m\ \times \ n$ pixels. 
+
+Its output $\displaystyle h$ is a $\displaystyle l'$-channel convolution of the image with different kernels:
+
+\begin{equation*}
+h_{l',i',j'} \ =\ \sigma \left(\sum\nolimits _{l,i,j} W_{l,i,j}^{l^{'}} X_{l.i^{'}} -i,j^{'} -j\right)
+\end{equation*}
+where $\displaystyle \sigma $ is an activation function A max-pooling layer then down-samples the image by selecting the maximum value among some dimension.
+
+\textbf{Problem Formulation:}
+
+\begin{gather}
+\underset{s}{\max} \ \sum _{i=1}^{CN}\sum\nolimits _{i=1}^{T} u_{s_{i}}^{( i)}\\
+ \notag\\
+.s.t.\begin{cases}
+\sum\nolimits _{n=0}^{N} x_{n} =0, & \\
+x_{n} \ \in \ [ 0,1] ,\ \forall n\ \in \ \{0,\dotsc ,N\} , & \\
+\mathbb{x} P2^{T} \ \leq \ P_{avg} & 
+\end{cases} \notag
+\end{gather}
+
+
 
 \begin{algorithm}[!h]
 
@@ -384,11 +899,8 @@ $\mathcal G \leftarrow \mathcal G'$\tcc*{update gallery}
 
 \chapter{Preliminary Results}
 
-
 %%- Conclusion -%%
 \begin{conclusion}
-
-\lipsum[1] % Text filling, to have an example of the layout
 
 \end{conclusion}
 
@@ -404,69 +916,7 @@ $\mathcal G \leftarrow \mathcal G'$\tcc*{update gallery}
 %% Appendix from an external file
 % \include{extApp}
 
-\chapter{Appendix example}
-
-
-\section{First section of the appendix}
-
-
-\subsection{Figures in annexes}
-
-\begin{figure}
-	\centering
-	\fbox{
-		\includegraphics[width=0.75\textwidth]{Figures/vueEts.jpg}
-	}
-	 \\ \parbox{0.7\textwidth}{\caption{Figure in an appendix}\label{fig:testAp}}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\fbox{
-	\parbox{0.975\linewidth}{
-	\subfloat[first figure]{
-		\includegraphics[width=0.47\linewidth]{Figures/vueEts.jpg}
-	}\hspace{0.009\linewidth}
-	\subfloat[second figure]{
-		\includegraphics[width=0.47\linewidth]{Figures/vueEts.jpg}
-	}
-	
-	\subfloat[third figure]{
-		\includegraphics[width=0.47\linewidth]{Figures/vueEts.jpg}
-	}\hspace{0.009\linewidth}
-	\subfloat[fourth figure]{
-		\includegraphics[width=0.47\linewidth]{Figures/vueEts.jpg}
-	}}}
-	\\ \parbox{0.975\linewidth}{\caption{Subfig example}}
-\end{figure}
-
-In the annexes, the figures are declared in the same way. Their numbering changes automatically (e.g. Figure \ref{fig:testAp}).
-
-\subsubsection{Tables in annexes}
-
-\begin{table}
-		\parbox{0.65\textwidth}{\caption{Table in an appendix}\label{tab:testAp}}
-
-		\begin{tabular}{|c|c|c|c|c|c|c|c|}
-		\hline
-			{\bf titre} & {\bf titre} & {\bf titre} & {\bf titre} & {\bf titre} & {\bf titre} & {\bf titre} & {\bf titre} \\
-	  \hline
-			blá & blá & blá & blá & blá & blá & blá & blá \\
-	  \hline
-			blá & blá & blá & blá & blá & blá & blá & blá \\
-	  \hline
-			blá & blá & blá & blá & blá & blá & blá & blá \\
-	  \hline
-			blá & blá & blá & blá & blá & blá & blá & blá \\
-	  \hline
-			blá & blá & blá & blá & blá & blá & blá & blá \\
-	  \hline
-			blá & blá & blá & blá & blá & blá & blá & blá \\
-	  \hline
-		\end{tabular}
-\end{table}
-
-Same behaviour for the tables (e.g., Table \ref{tab:testAp}).
+\chapter{Appendix}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
