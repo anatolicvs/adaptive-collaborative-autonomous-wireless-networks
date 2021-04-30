@@ -38,7 +38,7 @@
 % TITLE PAGE OPTIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Adaptive Collaborative  Autonomous Wireless Networks}
+\title{Adaptive Collaborative Autonomous Wireless Networks}
 
 \author{Aytac OZKAN}
 \authorcopyright{Aytac Ozkan}
@@ -51,7 +51,7 @@
 
 %\directeur{Mrs.}{Prénom Nom}{Nom du département et institution}
 
-\president{M.}{Pr. Louis Rivest}{PhD Program's Director}
+\president{Prof. Dr.}{Pr. Louis Rivest}{PhD Program's Director}
 
 %\codirecteurB{M.}{Prénom Nom}{département et institution}
 
@@ -463,7 +463,7 @@ $\displaystyle t$
  
  We consider a wireless communication scenario where a sender such as a wireless device \ transmits \ data to the receiver at time slot $\displaystyle k$ with a transmit power $\displaystyle P1_{k}$. while there are L Jammers who can launch jamming attacks by injecting meaningless interference signals denoted as $\displaystyle P2_{k}^{l} \ \in \ \left\{P2_{k}^{1} ,P2_{k}^{2} ,...,P2_{k}^{L}\right\} .$
 
-Each $\displaystyle P2_{k}^{l}$ has $\displaystyle I$ different power levels. 
+Each $\displaystyle P2_{k}^{l}$ has $\displaystyle I$ has different power levels. 
 
 
 
@@ -475,28 +475,28 @@ $\displaystyle \ \ P_{avg} \ \leq \ P_{max}$
 
 
 
-In our model, each jammer is assumed to attack only one channel, At time slot $\displaystyle k,$the sender can choose one of N selectable frequency channels for transmitting denoted by $\displaystyle x^{( k)} .$ Meanwhile, $\displaystyle L$ jammers may select their frequency channels (denoted as $\displaystyle \left\{y_{1}^{( k)} ,\ y_{2}^{( k)} ,\dotsc ,y_{L}^{( k)}\right\}$) for jamming. 
+In our model, each jammer is assumed to attack only one channel At time slot $\displaystyle k,$the sender can choose one of N selectable frequency channels for transmitting denoted by $\displaystyle x^{( k)} .$ Meanwhile, $\displaystyle L$ jammers may select their frequency channels (denoted as $\displaystyle \left\{y_{1}^{( k)} ,\ y_{2}^{( k)} ,\dotsc ,y_{L}^{( k)}\right\}$) for jamming. 
   
  $\displaystyle h_{s}$ and $\displaystyle h_{l}$ denote the channel power gains from the sender and the $\displaystyle lth$ jammer to the receiver respectively. 
 
-If \ we denote $\displaystyle \mathbb{x} \ \triangleq \ ( x_{0,} \dotsc ,x_{n} ,\dotsc ,x_{N})$ as a probability vector for being jammed for channels,
+If \ we denote $\displaystyle \mathbb{x} \ \triangleq \ ( x_{0,} \dotsc ,x_{n} ,\dotsc ,x_{N})$ as a probability vector for being jammed in channels,
 
 
-In order to resist jamming attack, the sender needs to choose an unblocked channel $\displaystyle x^{( k)}$ and an appropriate transmit power. In general, variable transmit power model is shown to be superior to be the constant transmit power one under the constraint of the same average power. \ After the receiver gets the signal at time slot k, the $\displaystyle SINR( k)$ is calculated by (1) and returned to the sender through the feedback channel. 
+To resist the jamming attack, the sender needs to choose an unblocked channel $\displaystyle x^{( k)}$ and an appropriate transmit power. In general, the variable transmit power model  superior to the constant transmit power one under the constraint of the same average power. \ After the receiver gets the signal at time slot k, the $\displaystyle SINR( k)$ is calculated by (1) and returned to the sender through the feedback channel. 
  
 \begin{equation}
 SINR( k) \ =\ \frac{P1h_{s}}{\beta +\sum _{l=1}^{L} P2h_{l} f\left( x^{( k)} \ =\ y_{l}^{( k)}\right)} ,
 \end{equation}
  
- where $\displaystyle \beta $ is the receiver noise power, $\displaystyle P2_{k}^{l}$ denotes the jamming power chosen by the $\displaystyle lth$ jammer and $\displaystyle f( \xi )$ is an indicator function that equals 1 if $\displaystyle \xi $ is true and 0 otherwise. If the jammer is completely blocked by the jammers at time slot k, the sender needs to re-transmit the signal \ This will consume extra energy denoted as $\displaystyle C_{m} .$
+ where $\displaystyle \beta $ is the receiver noise power, $\displaystyle P2_{k}^{l}$ denotes the jamming power chosen by the $\displaystyle lth$ jammer and $\displaystyle f( \xi )$ is an indicator function that equals 1 if $\displaystyle \xi $ is true and 0 otherwise. If the jammer is completely blocked by the jammer at time slot k, the sender needs to retransmit the signal \ This will consume extra energy denoted as $\displaystyle C_{m} .$
 
-It is reasonable that the channel is considered to be blocked if the jamming power takes the maximum value $\displaystyle P2_{k}^{L} .$ In order to make a tradeoff between the energy saving and the communication performance, we define the utility $\displaystyle u_{s}^{( k)}$ of the sender by: 
+It is reasonable that the channel is considered blocked if the jamming power takes the maximum value $\displaystyle P2_{k}^{L} .$ In order to make a tradeoff between the energy saving and the communication performance, we define the utility $\displaystyle u_{s}^{( k)}$ of the sender by: 
  
 \begin{equation}
 u_{s}^{( k)} \ =\ SINR( k) \ -\ C_{m} f\left( P2_{k} \ =\ P2_{k}^{L}\right) f\left( x^{( k)} \ =\ y_{l}^{( k)}\right) \ -\ \frac{C_{s} P1_{k}}{P_{s}^{max}}
 \end{equation}
 
-where $\displaystyle C_{S}$ and $\displaystyle P_{S}^{\max}$ denote the unit transmission cost and the maximum transmit power respectively. 
+where $\displaystyle C_{S}$ and $\displaystyle P_{S}^{\max}$ denote the unit transmission cost and the maximum transmit power, respectively. 
 
 
 
@@ -805,9 +805,9 @@ a_{\tau } & with\ probability\ of\ \epsilon \\
 \caption{The Framework of TVIN}
 \end{figure}
 
-M is represent the MDP of some communication nodes, where an optimal policy $\displaystyle \pi $ is expected to be learned.
+M is the represent the MDP of some communication nodes, where an optimal policy $\displaystyle \pi $ is expected to be learned.
 
-The states, actions, rewards and transitions in M are denoted by;
+The states, actions, rewards, and transitions in M are denoted by;
 \begin{itemize}
 \item $\displaystyle s\ \in \mathcal{\ } S$
 \item $\displaystyle a\ \in \mathcal{A}$
@@ -815,11 +815,11 @@ The states, actions, rewards and transitions in M are denoted by;
 \item $\displaystyle P\left( s^{'} |s,a\right)$ respectively.
 \end{itemize}
 
-$\displaystyle \phi ( s)$ represent an observation for state s.
+$\displaystyle \phi ( s)$ represents an observation of state s.
 
-$\displaystyle \theta $ denotes all the parameters of the Transfer Value Iteration Networks (TVIN)
+$\displaystyle \theta $ denotes all the parameters of the Transfer Value Iteration Network (TVIN)
 
-R and P are dependent on the observations as follows; 
+R and P depend on the observations as follows; 
 \begin{itemize}
 \item $\displaystyle R\ =\ f_{R}( \phi ( s))$
 \item $\displaystyle P\ =\ f_{P}( \phi ( s))$
@@ -827,19 +827,19 @@ R and P are dependent on the observations as follows;
 
 The functions $\displaystyle f_{R}$ and $\displaystyle f_{P}$ are learned jointly in the policy learning process.
 
-Given a trained MDP in source communication domain (node), we aim to transfer the learned knowledge including the learned reward function and transition function to the target communication domain (node), such that an optimal policy $\displaystyle \pi ( a|\ \phi ( s) ;\theta )$ for the target domain can be learned. 
+Given a trained MDP in the source communication domain (node), we aim to transfer the learned knowledge including the learned reward function and transition function to the target communication domain (node), such that an optimal policy $\displaystyle \pi ( a|\ \phi ( s) ;\theta )$ for the target domain can be learned. 
 
 Given the trained VIN in the source domain, the trained reward function $\displaystyle f_{R}$ is first transferred to produce reward images for the observations s in the target communication domain.
 
-After that the state transition values on the common subset of actions, $\displaystyle f_{P}^{pre}$, is transferred to the target domain with a learnable weight associated with each action to measure the similarity degree between communication domains. And the state transition values on new domain-specific actions, $\displaystyle f_{P}^{new}$, are learned from scratch.
+After that, the state transition value of the common subset of actions, $\displaystyle f_{P}^{pre}$, is transferred to the target domain with a learnable weight associated with each action to measure the similarity degree between communication domains. And the state transition values on new domain-specific actions, $\displaystyle f_{P}^{new}$, are learned from scratch.
 
 All these state transition values reconstruct a transition function in the target communication domain, which is further used to compute the Q-function in each iteration for the target communication domain.
 
-An attention vector is fed as \ an input to generate target policy $\displaystyle \pi _{T}$. 
+An attention vector is fed as \ input to generate target policy $\displaystyle \pi _{T}$. 
 
 \textbf{Transition function transferring:}
 
-To transfer the transition function across domains, we use value iteration by approximating the Bellman-update through a CNN in the target domain. Specifically, the CNN used for comprised of stacked convolution and max-pooling layers.
+To transfer the transition function across domains, we use value iteration by approximating the Bellman-update through a CNN in the target domain. Specifically, the CNN is used for comprising of stacked convolution and max-pooling layers.
 
 
 The input to each convolution layer is a 3-dimensional signal X, typically, and image with $\displaystyle l$ channels and $\displaystyle m\ \times \ n$ pixels. 
@@ -849,7 +849,7 @@ Its output $\displaystyle h$ is a $\displaystyle l'$-channel convolution of the 
 \begin{equation*}
 h_{l',i',j'} \ =\ \sigma \left(\sum\nolimits _{l,i,j} W_{l,i,j}^{l^{'}} X_{l.i^{'}} -i,j^{'} -j\right)
 \end{equation*}
-where $\displaystyle \sigma $ is an activation function A max-pooling layer then down-samples the image by selecting the maximum value among some dimension.
+where $\displaystyle \sigma $ is an activation function, A max-pooling layer then downsamples the image by selecting the maximum value among some dimensions.
 
 \textbf{Problem Formulation:}
 
