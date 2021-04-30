@@ -5,48 +5,48 @@ The style file: bibETS.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: biblio_en.bib
 Warning--string name "feb" is undefined
---line 235 of file biblio_en.bib
+--line 228 of file biblio_en.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty pages in ACM:HasseltetSilver
-You've used 29 entries,
+You've used 28 entries,
             3211 wiz_defined-function locations,
-            803 strings with 11196 characters,
-and the built_in function-call counts, 14659 in all, are:
-= -- 1290
-> -- 1289
+            798 strings with 11001 characters,
+and the built_in function-call counts, 14139 in all, are:
+= -- 1245
+> -- 1243
 < -- 2
-+ -- 449
-- -- 420
-* -- 1455
-:= -- 2483
-add.period$ -- 132
-call.type$ -- 29
-change.case$ -- 198
-chr.to.int$ -- 29
-cite$ -- 59
-duplicate$ -- 468
-empty$ -- 813
-format.name$ -- 453
-if$ -- 2887
++ -- 433
+- -- 405
+* -- 1399
+:= -- 2397
+add.period$ -- 127
+call.type$ -- 28
+change.case$ -- 191
+chr.to.int$ -- 28
+cite$ -- 57
+duplicate$ -- 452
+empty$ -- 784
+format.name$ -- 437
+if$ -- 2785
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 198
-num.names$ -- 116
-pop$ -- 295
+newline$ -- 191
+num.names$ -- 112
+pop$ -- 285
 preamble$ -- 1
-purify$ -- 198
+purify$ -- 191
 quote$ -- 0
-skip$ -- 424
+skip$ -- 409
 stack$ -- 0
-substring$ -- 58
-swap$ -- 52
+substring$ -- 56
+swap$ -- 50
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 314
+type$ -- 303
 warning$ -- 1
-while$ -- 87
+while$ -- 84
 width$ -- 0
-write$ -- 457
+write$ -- 441
 (There were 2 warnings)
