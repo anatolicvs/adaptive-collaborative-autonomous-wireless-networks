@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{28}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -48,14 +48,6 @@ Bi, Y., Wu, Y.~\&~Hua, C.
   2(1), 95-109.
 \newblock doi:~\detokenize{10.1109/TCCN.2016.2570798}.
 
-\bibitem[Dastangoo\emph{ et~al.}(2016)Dastangoo, Fossa, Gwon~\&~Kung]{7473910}
-Dastangoo, S., Fossa, C.~E., Gwon, Y.~L.~\&~Kung, H.-T.
-\newblock (2016).
-\newblock Competing Cognitive Resilient Networks.
-\newblock \emph{IEEE Transactions on Cognitive Communications and Networking},
-  2(1), 95-109.
-\newblock doi:~\detokenize{10.1109/TCCN.2016.2570798}.
-
 \bibitem[Gingras\emph{ et~al.}(2020)Gingras, Pourranjbar~\&~Kaddoum]{9149223}
 Gingras, B., Pourranjbar, A.~\&~Kaddoum, G.
 \newblock (2020).
@@ -63,16 +55,6 @@ Gingras, B., Pourranjbar, A.~\&~Kaddoum, G.
 \newblock \emph{ICC 2020 - 2020 IEEE International Conference on Communications
   (ICC)}, pp.~1-6.
 \newblock doi:~\detokenize{10.1109/ICC40277.2020.9149223}.
-
-\bibitem[{Gwon}\emph{ et~al.}(2013){Gwon}, {Dastangoo},
-  {Fossa}~\&~{Kung}]{FossaEtGwonComMobNetGame}
-{Gwon}, Y., {Dastangoo}, S., {Fossa}, C.~\&~{Kung}, H.~T.
-\newblock (2013,~Oct).
-\newblock Competing Mobile Network Game: Embracing antijamming and jamming
-  strategies with reinforcement learning.
-\newblock \emph{2013 IEEE Conference on Communications and Network Security
-  (CNS)}, pp.~28-36.
-\newblock doi:~\detokenize{10.1109/CNS.2013.6682689}.
 
 \bibitem[H.\emph{ et~al.}(2016)H., A.~\&~D.]{ACM:HasseltetSilver}
 H., H., A., G.~\&~D., S.
@@ -195,6 +177,14 @@ Sutton, R.~S.~\&~Barto, A.~G.
 \newblock  Cambridge, MA, USA: MIT Press.
 \newblock
   \biburlrep~\biburlpart~\url{http://www.cs.ualberta.ca/%7Esutton/book/ebook/the-book.html}.
+
+\bibitem[Thien\emph{ et~al.}(2021)Thien, Vu~\&~Koo]{9383211}
+Thien, H.~T., Vu, V.-H.~\&~Koo, I.
+\newblock (2021).
+\newblock A Transfer Games Actor-Critic Learning Framework for Anti-Jamming in
+  Multi-Channel Cognitive Radio Networks.
+\newblock \emph{IEEE Access}, 9, 47887-47900.
+\newblock doi:~\detokenize{10.1109/ACCESS.2021.3068129}.
 
 \bibitem[Van~Huynh\emph{ et~al.}(2019)Van~Huynh, Nguyen,
   Hoang~\&~Dutkiewicz]{8792369}

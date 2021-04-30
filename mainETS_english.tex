@@ -12,7 +12,7 @@
 
 %% Exemple with a Ph.D thesis under creative commons, using hyperref
 \documentclass[letterpaper%
-, twoside%
+, oneside%
 , 12pt%
 ,thesepararticles%
 , english%
@@ -38,7 +38,7 @@
 % TITLE PAGE OPTIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Adaptive Collaborative  Autonomous Wireless Networks}
+\title{Adaptive Collaborative Autonomous Wireless Networks}
 
 \author{Aytac OZKAN}
 \authorcopyright{Aytac Ozkan}
@@ -51,11 +51,11 @@
 
 %\directeur{Mrs.}{Prénom Nom}{Nom du département et institution}
 
-\president{M.}{Pr. Louis Rivest}{PhD Program's Director}
+\president{Prof. Dr.}{Pr. Louis Rivest}{PhD Program's Director}
 
 %\codirecteurB{M.}{Prénom Nom}{département et institution}
 
-\examinexterne{M.}{First Name Last Name}{Department and institution}
+% \examinexterne{M.}{First Name Last Name}{Department and institution}
 
 %\jury{Mme.}{Prénom Nom}{département et institution}{}
 
@@ -81,21 +81,21 @@
 \presentjury
 
 %%- Foreword -%%
-\begin{foreword}
+% \begin{foreword}
 
-\lipsum[1] % Texte de remplissage pour donner un exemple de la mise en page
+% \lipsum[1] % Texte de remplissage pour donner un exemple de la mise en page
 
-\end{foreword}
+% \end{foreword}
 
 
 
 %%- Acknowledgements -%%
-\begin{acknowledgements}
+% \begin{acknowledgements}
 
-\lipsum[1] % Text filling, to have an example of the layout
+% \lipsum[1] % Text filling, to have an example of the layout
 
 
-\end{acknowledgements}
+% \end{acknowledgements}
 
 
 %%- Summary -%%
@@ -138,6 +138,7 @@ Within this concern, to prevent this kind of intentional interference against wi
 \begin{listofabbr}[3cm]
 \item [ETS] École de Technologie Supérieure
 \item [ASC] Agence Spatiale Canadienne
+\item [CCAdN] Computing Cognitive Ad-Hoc Networks 
 \end{listofabbr}
 
 
@@ -188,7 +189,7 @@ To address these challenges, Transfer Learning (TL) has recently emerged as a hi
 
 \section{Motivation}
 
-The main purpose of this research is to develop efficient, reliable, and relentless mitigation techniques against the jammer, particularly reactive and powerful ones by employing machine learning (ML) and wireless communication technologies. 
+The main purpose of this research is to develop a multi-agent, collaborative, efficient, reliable, and relentless mitigation techniques against the jammer, particularly reactive and powerful ones by employing machine learning (ML) and wireless communication technologies. 
 
 To achieve the objective defined above, we are going to use the Frequency Hopping Spectrum  Sensing (FHSS) technique. In the infinite time space, regarding the probability distribution of incoming signals, we are going to build the most accurate ML model to find out  the optimal and feasible prediction for communication channels.
 
@@ -196,7 +197,7 @@ Of course, the first paragraph is specified only the core part of the communicat
 
 Therefore, we can divide our main objective into three subsections and each of them address a different research problem.
 
-We assume in the wireless ad-hoc network, there are two communication node (CN) and one reactive jammer. Also CN1 and CN2 has data connection, which means they can transmit the data to each other. In addition, the ad-hoc network is multi-channel. Constraints, respectively CN's power storage (limit), channel bandwidth, and installed CPU or GPU power on the CN. 
+We assume in the wireless ad-hoc network, there are two communication nodes (CN) and one reactive jammer. Also CN1 and CN2 has data connection, which means they can transmit the data to each other. In addition, the ad-hoc network is multi-channel. Constraints, respectively CN's power storage (limit), channel bandwidth, and installed CPU or GPU power on the CN. 
 
 \subsection{Objectives}
 
@@ -244,7 +245,8 @@ We assume in the wireless ad-hoc network, there are two communication node (CN) 
 \begin{itemize}
  \item {In the infinite time space, we are going to build a Machine Learning model which will take as input frequencies by sensing from the wireless network, and try to predict the jammer next action (channel estimation), which literally means that try to determine the next communication channel will jam. And it will allow us to determine the jamming activity pattern in the ad-hoc network, and by analyzing these patterns we are going to concrete  mitigation strategies. So, related research will propose novel techniques to answer the question below,
      
-     How to catalyze the jamming activity pattern and initialize effective and relentless mitigation strategies for communication nodes in wireless ad-hoc networks by using autonomous learning techniques ?}
+     How to catalyze the jamming activity pattern and initialize effective and relentless mitigation strategies for communication nodes collectively in wireless ad-hoc networks by using autonomous learning techniques ?}
+     
  \item {In the first item, we have proposed a method which allows us to analyze the jammer behaviour pattern, and generate defence strategies for the CN based on this pattern. However, in the wireless spectrum we have two different CNs and we can have more nodes, in this case we may transfer the produced policy (or strategy) from one node to another when suitable conditions are satisfied. Moreover, collaborative learning can increase the chances to mitigate against reactive and strong jammers by saving time and energy of CNs. E.g, the cost of learning, cost of transmission, and accuracy of learning models have  high importance roles in the decision model of the framework. 
   
  	Therefore, related research will address the question below, 
@@ -270,12 +272,16 @@ In \cite{8761848}, the authors employ a deep Q-learning learning (DQL) based ant
 
 The work in \cite{Slimeni2018AMQ} proposes a modified Q-learning technique, where all the Q-values of the Q-table are updated at each iteration, to mitigate the effects of a sweeping jammer. A DRL based method to obtain the optimal task offloading policy under jamming attacks in the context of multi-radio access is pro-posed in \cite{9136780}. Authors in \cite{8792369} propose the idea of harvesting the transmitted power by jammers for data transmission. 
 
-The work \cite{7473910} in introduces a system consisting of two groups of nodes, namely legitimate users and jammers, that compete to dominate the shared spectrum. In this regard, multi-agent Q-learning is employed to discover the optimal actions of the nodes. 
+The work \cite{CCRN_Dastangoo_Fossa} in introduces a system consisting of two groups of nodes, namely legitimate users and jammers, that compete to dominate the shared spectrum. In this regard, multi-agent Q-learning is employed to discover the optimal actions of the nodes. 
 
 The works in \cite{8371277} develop anti-jamming methods that employ new approaches to deceive the jammer using a honeypot or fake transmission. 
 
-In summary, anti-jamming in the practical case of partially observable environment against advanced jammers is an understudied topic in the open technical literature. Thus, in this paper, to ensure safe communication channels for the legitimate users and avoid channel switching, an autonomous anti-jamming mechanism is proposed by deceiving reactive jammers in partially observable environments, which is applicable to both multi user and single user scenarios. Moreover, we consider the problem of selecting the optimal channel that can be used to deceive the jammer from several available channels.
+\cite{9383211} proposed a transfer Game-Actor-Critic (TGACT) scheme, which uses the transferred knowledge in a double-game period to accelerate the learning process and provide performance improvement in channel selection. This work particularly close our research motivation that mentioned this paper, main difference they used other type of RL algorithm rather than deep q-learning algorithm.
 
+
+In summary, anti-jamming in the practical case of partially observable environment against advanced jammers is an understudied topic in the open technical literature. Thus, in this paper, to ensure safe communication channels for the legitimate users and avoid channel switching, a collaborative autonomous anti-jamming mechanism is proposed by deceiving reactive jammers in partially observable environments, which is applicable to both multi user and single user scenarios. Moreover, we consider the problem of selecting the optimal channel that can be used to deceive the jammer from several available channels.
+
+Specifically based on the state of the system, the long-term network performance is maximized to find the optimal channel policy collectively that can be used against jammer's attack. Moreover Transfer Learning (collaborative learning) technology is accelerate the learning process and to provide performance improvements in channel selection, compared with a classic multi-agent deep reinforcement learning algorithms.
 
 
 
@@ -351,8 +357,21 @@ In the first category, an agent first needs to learn a value function, e.g., the
 \end{enumerate}
 
 
+\subsection{Evaluating Transfer Learning Approaches in DRL}
 
+\begin{itemize}
+\item \textbf{What knowledge has been transferred: }Knowledge comes from the source domain and can take different forms of supervisions, such as a set of expert experi- ences, the action probability distribution of an expert policy, or even a potential function that estimates the quality of state and action pairs in the source/target MDP. 
+\item \textbf{Where the transfer occurs: }For arbitrary RL task, the MDP (environment) can be defined as a tuple of
 
+$\displaystyle \mathcal{M} \ =\ ( \mu _{0} \ S,\ \mathcal{A} ,\mathcal{T} ,\ \gamma ,\ \mathcal{R} ,\mathcal{S}_{0})$ The source MDP $\displaystyle \mathcal{M}_{s}$ is the place where the prior knowledge comes from and the target MDP $\displaystyle \mathcal{M}_{t}$ is where the knowledge is transferred to. 
+\item \textbf{How to transfer knowledge between source and target MPDs:} This question can be rephrased as different sub-questions, such as: What assumptions have been made on the similarity of $\displaystyle \mathcal{M}_{s}$ to $\displaystyle \mathcal{M}_{t}$? Is the mapping function from $\displaystyle \mathcal{M}_{s}$to $\displaystyle \mathcal{M}_{t}$ pre-defined or autonomous generated ? 
+
+What components of the learning procedure, e.g. learning the policy $\displaystyle \pi $, the value function $\displaystyle V$, or even the transition dynamics $\displaystyle \mathcal{T}$ (for model-based RL), can benefit from the transferred knowledge?
+\item \textbf{What goal to achieve for the transfer learning approach:} We can answer this question by analyzing two aspect of an TL approach: We can answer this question by analyzing two aspects of an TL approach: (i) its optimization objective function, and (ii) its evaluation metrics. Evalu- ation metrics can be the initial/convergence/episodic performance, or the training iterations/samples used to reach a certain threshold.
+\item \textbf{How applicable a TL approach is:} We can rephrase this question as other forms, e.g., Is the TL approach policy-agnostic, or applicable only to certain set of algorithms, e.g, Temporal Difference (TD) methods? Answers to this question are closely related to the form of the transferred knowledge and the similarity between two MDPs.
+\item \textbf{What is the accessibility of the target MDP: }We assume that the cost of accessing knowledge from source domains are cheaper. However, the learning agent may not be able to access the target MDP directly, or it can only have a very limited number of MDP interactions, due to the high sampling cost in the target MDP.
+\item \textbf{How sample efficient the TL approach is:} This ques- tion is related to the above question regarding the accessibility of a target MDP. Based on the number of interactions needed to enable TL, we can categorize TL techniques into the following classes: (i) Zero-shot transfer: the learned agent are directly applicable to the target MDP without requiring any interactions with it; (ii) Few-shot transfer: only a few samples (interactions) are needed from the target MDP; (iii) Sample-efficient transfer: most of other algorithms fall into this category, where an agent can benefit from TL to learn faster with fewer interactions, which is therefore more sample efficient, compared with a standard RL procedure without any knowledge transfer. Compared with training from scratch in the target MDP, TL approach enable the target agent with a better initial performance and/or converge faster.
+\end{itemize}
 
 
 
@@ -460,6 +479,45 @@ $\displaystyle t$
 }
 \caption{Dynamic Spectrum Access (DSA).} \label{fig:DSA}
 \end{figure}
+ 
+\begin{table}[h]
+        \centering
+        
+\begin{tabular}{|p{0.25\textwidth}|p{0.19\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|}
+\hline 
+ Comm Equipment (CE)  & Jammer & Outcome & Reward \\
+\hline 
+ Tx & $\displaystyle \emptyset $ & CE Tx Success  &  $\displaystyle R_{CE\ } \ +=\ B$ \\
+\hline 
+ Tx & Jam & J Jamming & $\displaystyle R_{Jam\ } \ +=\ B$ \\
+\hline 
+ Tx & Tx & Tx collision & - \\
+\hline 
+ $\displaystyle \emptyset $ & Jam &  & - \\
+ \hline
+\end{tabular}
+        \caption{Node Actions, outcome and resulting reward}
+        \end{table} 
+ 
+\begin{table}[h]
+
+ \centering       
+\begin{tabular}{|p{0.10\textwidth}|p{0.04\textwidth}|p{0.04\textwidth}|p{0.04\textwidth}|p{0.04\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|p{0.04\textwidth}|p{0.04\textwidth}|p{0.04\textwidth}|p{0.05\textwidth}|p{0.30\textwidth}|}
+\hline 
+ Channel & 1 & 2 & 3 & 4 &  5 & 6 & 7 & 8 & 9 & 10 &  \\
+\hline 
+  & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & 1 & 1 & $\displaystyle \emptyset $ & $\displaystyle CE_{1}$ \ Tx \\
+\hline 
+  & 1 & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & 1 & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & CE Tx \\
+\hline 
+  & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & 1 & 1 & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & Jammer \\
+\hline 
+  & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & $\displaystyle \emptyset $ & 1 & $\displaystyle \emptyset $ & Jammer \\
+ \hline
+\end{tabular}
+        \caption{Communications Equipment and Jammer CCAdN node Actions}
+\end{table}
+ 
  
  We consider a wireless communication scenario where a sender such as a wireless device \ transmits \ data to the receiver at time slot $\displaystyle k$ with a transmit power $\displaystyle P1_{k}$. while there are L Jammers who can launch jamming attacks by injecting meaningless interference signals denoted as $\displaystyle P2_{k}^{l} \ \in \ \left\{P2_{k}^{1} ,P2_{k}^{2} ,...,P2_{k}^{L}\right\} .$
 
@@ -635,8 +693,6 @@ a_{\tau } & with\ probability\ of\ \epsilon \\
 \begin{figure}
 
 \centering
-
-
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
 \begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
@@ -865,36 +921,36 @@ x_{n} \ \in \ [ 0,1] ,\ \forall n\ \in \ \{0,\dotsc ,N\} , & \\
 
 
 
-\begin{algorithm}[!h]
-
-\caption{Algorithm example}
-
-\KwIn{Gallery with initial templates $\mathcal G = \{\textbf{r}_1,...,\textbf{r}_J\}$, unlabeled adaptation set $\mathcal D = \{\textbf{d}_{1},...,\textbf{d}_{L}\}$}
-\KwOut{Updated Gallery $\mathcal G' = \{\textbf{r}_1,...,\textbf{r}_{J'}\}$, $J' \geq J$}
-\BlankLine
-\BlankLine
-
-Estimate updating threshold $\gamma^u \geq \gamma^d$ from $\mathcal G$\;
-
-$\mathcal G \leftarrow \mathcal G'$\tcc*{update gallery}
-
-	\For{all samples $d_l \in \mathcal D$ ($l=1,...,L$)}{
-		\For{all references $r_j \in \mathcal G$ ($j=1,...,J$)}{
-			$s_j(\textbf{d}_l) \leftarrow similarity\_measure(\textbf{d}_l,\textbf{r}_j)$\;
-		}
-	}
-	
-	$S(\textbf{d}_l) \leftarrow \max\limits_{j \in [1,J]}\{s_j(\textbf{d}_l)\}$\;
-	
-	\If{$S(\textbf{d}_l) \geq \gamma_d$}{
-		Output positive prediction\;
-		
-		\If{$S(\textbf{d}_l)\geq \gamma^u$}{
-			$\mathcal{G'} \leftarrow \mathcal{G'} \cup \textbf{d}_l$\;
-		}
-		
-	}
-\end{algorithm}
+%\begin{algorithm}[!h]
+%
+%\caption{Algorithm example}
+%
+%\KwIn{Gallery with initial templates $\mathcal G = \{\textbf{r}_1,...,\textbf{r}_J\}$, unlabeled adaptation set $\mathcal D = \{\textbf{d}_{1},...,\textbf{d}_{L}\}$}
+%\KwOut{Updated Gallery $\mathcal G' = \{\textbf{r}_1,...,\textbf{r}_{J'}\}$, $J' \geq J$}
+%\BlankLine
+%\BlankLine
+%
+%Estimate updating threshold $\gamma^u \geq \gamma^d$ from $\mathcal G$\;
+%
+%$\mathcal G \leftarrow \mathcal G'$\tcc*{update gallery}
+%
+%	\For{all samples $d_l \in \mathcal D$ ($l=1,...,L$)}{
+%		\For{all references $r_j \in \mathcal G$ ($j=1,...,J$)}{
+%			$s_j(\textbf{d}_l) \leftarrow similarity\_measure(\textbf{d}_l,\textbf{r}_j)$\;
+%		}
+%	}
+%	
+%	$S(\textbf{d}_l) \leftarrow \max\limits_{j \in [1,J]}\{s_j(\textbf{d}_l)\}$\;
+%	
+%	\If{$S(\textbf{d}_l) \geq \gamma_d$}{
+%		Output positive prediction\;
+%		
+%		\If{$S(\textbf{d}_l)\geq \gamma^u$}{
+%			$\mathcal{G'} \leftarrow \mathcal{G'} \cup \textbf{d}_l$\;
+%		}
+%		
+%	}
+%\end{algorithm}
 
 
 \chapter{Preliminary Results}
